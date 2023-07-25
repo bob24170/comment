@@ -78,3 +78,29 @@ npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrad
 npm WARN deprecated gatsby-recipes@0.1.21: gatsby-recipes has been removed from gatsby/gatsby-cli >=4.5.0. Update to gatsby@latest/gatsby-cli@latest to use versions without gatsby-recipes. This package will no longer receive updates.
 npm WARN deprecated highlight.js@8.9.1: Version no longer supported. Upgrade to @latest
 [##################] | reify:babel-runtime: timing metavuln:packument:tar-stream Complete
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\comment> npm i -g firebase-tools@v3.17.2
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated topo@1.1.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug
+fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated gcs-resumable-upload@0.10.2: gcs-resumable-upload is deprecated. Support will end on 11/01/2023
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated uuid@3.2.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@2.0.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@2.0.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated tar@3.2.3: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm WARN deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated joi@6.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug
+fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
+added 135 packages, removed 303 packages, and changed 288 packages in 51s
+
+9 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\88\Desktop\comment>

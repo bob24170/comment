@@ -101,6 +101,75 @@ fixes, and security patches. If you are unable to upgrade at this time, paid sup
 
 added 135 packages, removed 303 packages, and changed 288 packages in 51s
 
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\comment> firebase -V
+3.17.2
+PS C:\Users\88\Desktop\comment> npm i firebase-tools -D
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the
+actual version of core-js.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the
+actual version of core-js.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the
+actual version of core-js.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the
+actual version of core-js.
+npm WARN cleanup Failed to remove some directories [
+npm WARN cleanup   [
+npm WARN cleanup     'C:\\Users\\88\\Desktop\\comment\\node_modules\\cwebp-bin',
+npm WARN cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\88\Desktop\comment\node_modules\cwebp-bin'] {
+npm WARN cleanup       errno: -4082,
+npm WARN cleanup       code: 'EBUSY',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\88\\Desktop\\comment\\node_modules\\cwebp-bin'
+npm WARN cleanup     }
+npm WARN cleanup   ],
+npm WARN cleanup   [
+npm WARN cleanup     'C:\\Users\\88\\Desktop\\comment\\node_modules\\mozjpeg',
+npm WARN cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\88\Desktop\comment\node_modules\mozjpeg'] {
+npm WARN cleanup       errno: -4082,
+npm WARN cleanup       code: 'EBUSY',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\88\\Desktop\\comment\\node_modules\\mozjpeg'
+npm WARN cleanup     }
+npm WARN cleanup   ],
+npm WARN cleanup   [
+npm WARN cleanup     'C:\\Users\\88\\Desktop\\comment\\node_modules\\cwebp-bin',
+npm WARN cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\88\Desktop\comment\node_modules\cwebp-bin'] {
+npm WARN cleanup       errno: -4082,
+npm WARN cleanup       code: 'EBUSY',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\88\\Desktop\\comment\\node_modules\\cwebp-bin'
+npm WARN cleanup     }
+npm WARN cleanup   ],
+npm WARN cleanup   [
+npm WARN cleanup     'C:\\Users\\88\\Desktop\\comment\\node_modules\\mozjpeg',
+npm WARN cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\88\Desktop\comment\node_modules\mozjpeg'] {
+npm WARN cleanup       errno: -4082,
+npm WARN cleanup       code: 'EBUSY',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\88\\Desktop\\comment\\node_modules\\mozjpeg'
+npm WARN cleanup     }
+npm WARN cleanup   ]
+npm WARN cleanup ]
+npm ERR! code 1
+npm ERR! path C:\Users\88\Desktop\comment\node_modules\pngquant-bin
+npm ERR! command failed
+npm ERR! command C:\Windows\system32\cmd.exe /d /s /c node lib/install.js
+npm ERR! ‼ connect ETIMEDOUT 185.199.110.133:443
+npm ERR!   ‼ pngquant pre-build test failed
+npm ERR!   i compiling from source
+npm ERR!   × Error: pngquant failed to build, make sure that libpng-dev is installed
+npm ERR!     at C:\Users\88\Desktop\comment\node_modules\bin-build\node_modules\execa\index.js:231:11
+npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+npm ERR!     at async Promise.all (index 0)
+
+npm ERR! A complete log of this run can be found in: C:\Users\88\AppData\Local\npm-cache\_logs\2023-07-26T20_40_38_898Z-debug-0.log
+PS C:\Users\88\Desktop\comment>
+
 9 packages are looking for funding
   run `npm fund` for details
 PS C:\Users\88\Desktop\comment>

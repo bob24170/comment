@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "type": "module"
+  "type": "module",
   "description": "A simple with commenting system using Firebase",
   "version": "0.1.0",
   "author": "Aman Thakur",

@@ -1,0 +1,153 @@
+Aug 11 09:42:07 PM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 11 09:42:08 PM  ==> Checking out commit c43ccc80ded9b1f75053b2dfeb2e44a15ab70b10 in branch main
+Aug 11 09:42:12 PM  ==> Using Node version 14.17.0 (default)
+Aug 11 09:42:12 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 11 09:42:12 PM  ==> Running build command 'npm install'...
+Aug 11 09:43:42 PM  
+Aug 11 09:43:42 PM  > sharp@0.27.2 install /opt/render/project/src/node_modules/sharp
+Aug 11 09:43:42 PM  > (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+Aug 11 09:43:42 PM  
+Aug 11 09:43:42 PM  info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.10.5/libvips-8.10.5-linux-x64.tar.br
+Aug 11 09:43:46 PM  
+Aug 11 09:43:46 PM  > core-js@2.6.12 postinstall /opt/render/project/src/node_modules/babel-runtime/node_modules/core-js
+Aug 11 09:43:46 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 11 09:43:46 PM  
+Aug 11 09:43:46 PM  
+Aug 11 09:43:46 PM  > core-js@3.6.5 postinstall /opt/render/project/src/node_modules/core-js
+Aug 11 09:43:46 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 11 09:43:46 PM  
+Aug 11 09:43:47 PM  
+Aug 11 09:43:47 PM  > protobufjs@6.11.3 postinstall /opt/render/project/src/node_modules/@grpc/proto-loader/node_modules/protobufjs
+Aug 11 09:43:47 PM  > node scripts/postinstall
+Aug 11 09:43:47 PM  
+Aug 11 09:43:47 PM  
+Aug 11 09:43:47 PM  > protobufjs@7.2.4 postinstall /opt/render/project/src/node_modules/protobufjs
+Aug 11 09:43:47 PM  > node scripts/postinstall
+Aug 11 09:43:47 PM  
+Aug 11 09:43:47 PM  
+Aug 11 09:43:47 PM  > es5-ext@0.10.62 postinstall /opt/render/project/src/node_modules/es5-ext
+Aug 11 09:43:47 PM  >  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+Aug 11 09:43:47 PM  
+Aug 11 09:43:48 PM  
+Aug 11 09:43:48 PM  > gatsby-telemetry@1.10.2 postinstall /opt/render/project/src/node_modules/gatsby-telemetry
+Aug 11 09:43:48 PM  > node src/postinstall.js || true
+Aug 11 09:43:48 PM  
+Aug 11 09:43:48 PM  
+Aug 11 09:43:48 PM  > mozjpeg@7.1.1 postinstall /opt/render/project/src/node_modules/mozjpeg
+Aug 11 09:43:48 PM  > node lib/install.js
+Aug 11 09:43:48 PM  
+Aug 11 09:43:49 PM  mozjpeg pre-build test passed successfully
+Aug 11 09:43:49 PM  
+Aug 11 09:43:49 PM  > pngquant-bin@6.0.1 postinstall /opt/render/project/src/node_modules/pngquant-bin
+Aug 11 09:43:49 PM  > node lib/install.js
+Aug 11 09:43:49 PM  
+Aug 11 09:43:49 PM  pngquant pre-build test passed successfully
+Aug 11 09:43:49 PM  
+Aug 11 09:43:49 PM  > gatsby-cli@2.19.3 postinstall /opt/render/project/src/node_modules/gatsby/node_modules/gatsby-cli
+Aug 11 09:43:49 PM  > node scripts/postinstall.js
+Aug 11 09:43:49 PM  
+Aug 11 09:43:50 PM  
+Aug 11 09:43:50 PM  > gatsby@2.32.13 postinstall /opt/render/project/src/node_modules/gatsby
+Aug 11 09:43:50 PM  > node scripts/postinstall.js
+Aug 11 09:43:50 PM  
+Aug 11 09:43:52 PM  added 2659 packages from 1135 contributors and audited 2664 packages in 99.849s
+Aug 11 09:43:54 PM  
+Aug 11 09:43:54 PM  320 packages are looking for funding
+Aug 11 09:43:54 PM    run `npm fund` for details
+Aug 11 09:43:54 PM  
+Aug 11 09:43:54 PM  found 69 vulnerabilities (3 low, 34 moderate, 27 high, 5 critical)
+Aug 11 09:43:54 PM    run `npm audit fix` to fix them, or `npm audit` for details
+Aug 11 09:43:58 PM  ==> Uploading build...
+Aug 11 09:44:10 PM  ==> Build uploaded in 9s
+Aug 11 09:44:10 PM  ==> Build successful 🎉
+Aug 11 09:44:10 PM  ==> Deploying...
+Aug 11 09:44:56 PM  ==> Using Node version 14.17.0 (default)
+Aug 11 09:44:56 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 11 09:44:56 PM  ==> Starting service with 'yarn start'
+Aug 11 09:44:57 PM  yarn run v1.22.5
+Aug 11 09:44:57 PM  $ npm run develop
+Aug 11 09:44:59 PM  
+Aug 11 09:44:59 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 11 09:44:59 PM  > gatsby develop
+Aug 11 09:44:59 PM  
+Aug 11 09:45:15 PM  internal/process/esm_loader.js:74
+Aug 11 09:45:15 PM      internalBinding('errors').triggerUncaughtException(
+Aug 11 09:45:15 PM                                ^
+Aug 11 09:45:15 PM  
+Aug 11 09:45:15 PM  TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension "" for /opt/render/project/src/.cache/tmp-85-rPjjxlTwEuE7
+Aug 11 09:45:15 PM      at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
+Aug 11 09:45:15 PM      at Loader.getFormat (internal/modules/esm/loader.js:104:42)
+Aug 11 09:45:15 PM      at Loader.getModuleJob (internal/modules/esm/loader.js:242:31)
+Aug 11 09:45:15 PM      at async Loader.import (internal/modules/esm/loader.js:176:17)
+Aug 11 09:45:15 PM      at async Object.loadESM (internal/process/esm_loader.js:68:5) {
+Aug 11 09:45:15 PM    code: 'ERR_UNKNOWN_FILE_EXTENSION'
+Aug 11 09:45:15 PM  }
+Aug 11 09:45:15 PM  internal/process/esm_loader.js:74
+Aug 11 09:45:15 PM      internalBinding('errors').triggerUncaughtException(
+Aug 11 09:45:15 PM                                ^
+Aug 11 09:45:15 PM  
+Aug 11 09:45:15 PM  TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension "" for /opt/render/project/src/.cache/tmp-85-xuL9Ht1F1Upt
+Aug 11 09:45:15 PM      at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
+Aug 11 09:45:15 PM      at Loader.getFormat (internal/modules/esm/loader.js:104:42)
+Aug 11 09:45:15 PM      at Loader.getModuleJob (internal/modules/esm/loader.js:242:31)
+Aug 11 09:45:15 PM      at async Loader.import (internal/modules/esm/loader.js:176:17)
+Aug 11 09:45:15 PM      at async Object.loadESM (internal/process/esm_loader.js:68:5) {
+Aug 11 09:45:15 PM    code: 'ERR_UNKNOWN_FILE_EXTENSION'
+Aug 11 09:45:15 PM  }
+Aug 11 09:45:15 PM  npm ERR! code ELIFECYCLE
+Aug 11 09:45:15 PM  npm ERR! errno 1
+Aug 11 09:45:15 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 11 09:45:15 PM  npm ERR! Exit status 1
+Aug 11 09:45:15 PM  npm ERR!
+Aug 11 09:45:15 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 11 09:45:15 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 11 09:45:16 PM  
+Aug 11 09:45:16 PM  npm ERR! A complete log of this run can be found in:
+Aug 11 09:45:16 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-11T13_45_15_984Z-debug.log
+Aug 11 09:45:16 PM  error Command failed with exit code 1.
+Aug 11 09:45:16 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Aug 11 09:45:41 PM  ==> Using Node version 14.17.0 (default)
+Aug 11 09:45:41 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 11 09:45:41 PM  ==> Starting service with 'yarn start'
+Aug 11 09:45:42 PM  yarn run v1.22.5
+Aug 11 09:45:42 PM  $ npm run develop
+Aug 11 09:45:44 PM  
+Aug 11 09:45:44 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 11 09:45:44 PM  > gatsby develop
+Aug 11 09:45:44 PM  
+Aug 11 09:46:00 PM  internal/process/esm_loader.js:74
+Aug 11 09:46:00 PM      internalBinding('errors').triggerUncaughtException(
+Aug 11 09:46:00 PM                                ^
+Aug 11 09:46:00 PM  
+Aug 11 09:46:00 PM  TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension "" for /opt/render/project/src/.cache/tmp-85-GduLuL7hUElR
+Aug 11 09:46:00 PM      at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
+Aug 11 09:46:00 PM      at Loader.getFormat (internal/modules/esm/loader.js:104:42)
+Aug 11 09:46:00 PM      at Loader.getModuleJob (internal/modules/esm/loader.js:242:31)
+Aug 11 09:46:00 PM      at async Loader.import (internal/modules/esm/loader.js:176:17)
+Aug 11 09:46:00 PM      at async Object.loadESM (internal/process/esm_loader.js:68:5) {
+Aug 11 09:46:00 PM    code: 'ERR_UNKNOWN_FILE_EXTENSION'
+Aug 11 09:46:00 PM  }
+Aug 11 09:46:00 PM  internal/process/esm_loader.js:74
+Aug 11 09:46:00 PM      internalBinding('errors').triggerUncaughtException(
+Aug 11 09:46:00 PM                                ^
+Aug 11 09:46:00 PM  
+Aug 11 09:46:00 PM  TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension "" for /opt/render/project/src/.cache/tmp-85-cloHrOrKJpQg
+Aug 11 09:46:00 PM      at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
+Aug 11 09:46:00 PM      at Loader.getFormat (internal/modules/esm/loader.js:104:42)
+Aug 11 09:46:00 PM      at Loader.getModuleJob (internal/modules/esm/loader.js:242:31)
+Aug 11 09:46:00 PM      at async Loader.import (internal/modules/esm/loader.js:176:17)
+Aug 11 09:46:00 PM      at async Object.loadESM (internal/process/esm_loader.js:68:5) {
+Aug 11 09:46:00 PM    code: 'ERR_UNKNOWN_FILE_EXTENSION'
+Aug 11 09:46:00 PM  }
+Aug 11 09:46:00 PM  npm ERR! code ELIFECYCLE
+Aug 11 09:46:00 PM  npm ERR! errno 1
+Aug 11 09:46:00 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 11 09:46:00 PM  npm ERR! Exit status 1
+Aug 11 09:46:00 PM  npm ERR!
+Aug 11 09:46:00 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 11 09:46:00 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 11 09:46:01 PM  
+Aug 11 09:46:01 PM  npm ERR! A complete log of this run can be found in:
+Aug 11 09:46:01 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-11T13_46_00_981Z-debug.log
+Aug 11 09:46:01 PM  error Command failed with exit code 1.
+Aug 11 09:46:01 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

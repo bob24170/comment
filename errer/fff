@@ -1,0 +1,187 @@
+Aug 12 08:55:06 PM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 12 08:55:06 PM  ==> Checking out commit ae098bf9df8957e305ceaa05984932f6bd5d8415 in branch main
+Aug 12 08:55:10 PM  ==> Using Node version 14.17.0 (default)
+Aug 12 08:55:10 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 12 08:55:10 PM  ==> Running build command 'npm install'...
+Aug 12 08:56:33 PM  
+Aug 12 08:56:33 PM  > sharp@0.27.2 install /opt/render/project/src/node_modules/sharp
+Aug 12 08:56:33 PM  > (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+Aug 12 08:56:33 PM  
+Aug 12 08:56:33 PM  info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.10.5/libvips-8.10.5-linux-x64.tar.br
+Aug 12 08:56:36 PM  
+Aug 12 08:56:36 PM  > core-js@2.6.12 postinstall /opt/render/project/src/node_modules/babel-runtime/node_modules/core-js
+Aug 12 08:56:36 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 12 08:56:36 PM  
+Aug 12 08:56:36 PM  
+Aug 12 08:56:36 PM  > core-js@3.6.5 postinstall /opt/render/project/src/node_modules/core-js
+Aug 12 08:56:36 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 12 08:56:36 PM  
+Aug 12 08:56:37 PM  
+Aug 12 08:56:37 PM  > protobufjs@6.11.4 postinstall /opt/render/project/src/node_modules/@grpc/proto-loader/node_modules/protobufjs
+Aug 12 08:56:37 PM  > node scripts/postinstall
+Aug 12 08:56:37 PM  
+Aug 12 08:56:37 PM  
+Aug 12 08:56:37 PM  > protobufjs@7.2.4 postinstall /opt/render/project/src/node_modules/protobufjs
+Aug 12 08:56:37 PM  > node scripts/postinstall
+Aug 12 08:56:37 PM  
+Aug 12 08:56:38 PM  
+Aug 12 08:56:38 PM  > es5-ext@0.10.62 postinstall /opt/render/project/src/node_modules/es5-ext
+Aug 12 08:56:38 PM  >  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+Aug 12 08:56:38 PM  
+Aug 12 08:56:38 PM  
+Aug 12 08:56:38 PM  > gatsby-telemetry@1.10.2 postinstall /opt/render/project/src/node_modules/gatsby-telemetry
+Aug 12 08:56:38 PM  > node src/postinstall.js || true
+Aug 12 08:56:38 PM  
+Aug 12 08:56:39 PM  
+Aug 12 08:56:39 PM  > mozjpeg@7.1.1 postinstall /opt/render/project/src/node_modules/mozjpeg
+Aug 12 08:56:39 PM  > node lib/install.js
+Aug 12 08:56:39 PM  
+Aug 12 08:56:39 PM  mozjpeg pre-build test passed successfully
+Aug 12 08:56:39 PM  
+Aug 12 08:56:39 PM  > pngquant-bin@6.0.1 postinstall /opt/render/project/src/node_modules/pngquant-bin
+Aug 12 08:56:39 PM  > node lib/install.js
+Aug 12 08:56:39 PM  
+Aug 12 08:56:40 PM  pngquant pre-build test passed successfully
+Aug 12 08:56:40 PM  
+Aug 12 08:56:40 PM  > gatsby-cli@2.19.3 postinstall /opt/render/project/src/node_modules/gatsby/node_modules/gatsby-cli
+Aug 12 08:56:40 PM  > node scripts/postinstall.js
+Aug 12 08:56:40 PM  
+Aug 12 08:56:40 PM  
+Aug 12 08:56:40 PM  > gatsby@2.32.13 postinstall /opt/render/project/src/node_modules/gatsby
+Aug 12 08:56:40 PM  > node scripts/postinstall.js
+Aug 12 08:56:40 PM  
+Aug 12 08:56:42 PM  added 2659 packages from 1135 contributors and audited 2664 packages in 91.694s
+Aug 12 08:56:44 PM  
+Aug 12 08:56:44 PM  320 packages are looking for funding
+Aug 12 08:56:44 PM    run `npm fund` for details
+Aug 12 08:56:44 PM  
+Aug 12 08:56:44 PM  found 69 vulnerabilities (3 low, 34 moderate, 27 high, 5 critical)
+Aug 12 08:56:44 PM    run `npm audit fix` to fix them, or `npm audit` for details
+Aug 12 08:56:45 PM  ==> Uploading build...
+Aug 12 08:56:57 PM  ==> Build uploaded in 9s
+Aug 12 08:56:57 PM  ==> Build successful 🎉
+Aug 12 08:56:57 PM  ==> Deploying...
+Aug 12 08:57:38 PM  ==> Using Node version 14.17.0 (default)
+Aug 12 08:57:38 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 12 08:57:38 PM  ==> Starting service with 'yarn start'
+Aug 12 08:57:40 PM  yarn run v1.22.5
+Aug 12 08:57:40 PM  $ npm run develop
+Aug 12 08:57:42 PM  
+Aug 12 08:57:42 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 12 08:57:42 PM  > gatsby develop
+Aug 12 08:57:42 PM  
+Aug 12 08:58:09 PM  internal/modules/cjs/loader.js:1085
+Aug 12 08:58:09 PM        throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+Aug 12 08:58:09 PM        ^
+Aug 12 08:58:09 PM  
+Aug 12 08:58:09 PM  Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:
+Aug 12 08:58:09 PM  /opt/render/project/src/node_modules/remark-mdx/index.js
+Aug 12 08:58:09 PM  require() of ES modules is not supported.
+Aug 12 08:58:09 PM  require() of /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/
+Aug 12 08:58:09 PM  render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.js is
+Aug 12 08:58:09 PM  an ES module file as it is a .js file whose nearest parent package.json contains
+Aug 12 08:58:09 PM   "type": "module" which defines all .js files in that package scope as ES
+Aug 12 08:58:09 PM  modules.
+Aug 12 08:58:09 PM  Instead rename index.js to end in .cjs, change the requiring code to use
+Aug 12 08:58:09 PM  import(), or remove "type": "module" from
+Aug 12 08:58:09 PM  /opt/render/project/src/node_modules/remark-mdx/package.json.
+Aug 12 08:58:09 PM  
+Aug 12 08:58:09 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1085:13)
+Aug 12 08:58:09 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 12 08:58:09 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+Aug 12 08:58:09 PM      at Module.require (internal/modules/cjs/loader.js:957:19)
+Aug 12 08:58:09 PM      at require (internal/modules/cjs/helpers.js:88:18)
+Aug 12 08:58:09 PM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 12 08:58:09 PM  ist/graphql-server/server.js:52:17)
+Aug 12 08:58:09 PM      at Module._compile (internal/modules/cjs/loader.js:1068:30)
+Aug 12 08:58:09 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+Aug 12 08:58:09 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 12 08:58:09 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14) {
+Aug 12 08:58:09 PM    code: 'ERR_REQUIRE_ESM'
+Aug 12 08:58:09 PM  }
+Aug 12 08:58:09 PM  
+Aug 12 08:58:09 PM  
+Aug 12 08:58:19 PM  success open and validate gatsby-configs - 1.000s
+
+Aug 12 08:58:24 PM   ERROR #11331  PLUGIN
+Aug 12 08:58:24 PM  
+Aug 12 08:58:24 PM  Invalid plugin options for "gatsby-plugin-manifest":
+Aug 12 08:58:24 PM  
+Aug 12 08:58:24 PM  - "value" must contain at least one of [icon, icons]
+Aug 12 08:58:24 PM  
+not finished load plugins - 4.591s
+Aug 12 08:58:24 PM  
+Aug 12 08:58:24 PM  npm ERR! code ELIFECYCLE
+Aug 12 08:58:24 PM  npm ERR! errno 1
+Aug 12 08:58:24 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 12 08:58:24 PM  npm ERR! Exit status 1
+Aug 12 08:58:24 PM  npm ERR!
+Aug 12 08:58:24 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 12 08:58:24 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 12 08:58:24 PM  
+Aug 12 08:58:24 PM  npm ERR! A complete log of this run can be found in:
+Aug 12 08:58:24 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-12T12_58_24_743Z-debug.log
+Aug 12 08:58:24 PM  error Command failed with exit code 1.
+Aug 12 08:58:24 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Aug 12 08:58:30 PM  ==> Using Node version 14.17.0 (default)
+Aug 12 08:58:30 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 12 08:58:30 PM  ==> Starting service with 'yarn start'
+Aug 12 08:58:30 PM  yarn run v1.22.5
+Aug 12 08:58:31 PM  $ npm run develop
+Aug 12 08:58:32 PM  
+Aug 12 08:58:32 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 12 08:58:32 PM  > gatsby develop
+Aug 12 08:58:32 PM  
+Aug 12 08:58:57 PM  internal/modules/cjs/loader.js:1085
+Aug 12 08:58:57 PM        throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+Aug 12 08:58:57 PM        ^
+Aug 12 08:58:57 PM  
+Aug 12 08:58:57 PM  Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:
+Aug 12 08:58:57 PM  /opt/render/project/src/node_modules/remark-mdx/index.js
+Aug 12 08:58:57 PM  require() of ES modules is not supported.
+Aug 12 08:58:57 PM  require() of /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/
+Aug 12 08:58:57 PM  render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.js is
+Aug 12 08:58:57 PM  an ES module file as it is a .js file whose nearest parent package.json contains
+Aug 12 08:58:57 PM   "type": "module" which defines all .js files in that package scope as ES
+Aug 12 08:58:57 PM  modules.
+Aug 12 08:58:57 PM  Instead rename index.js to end in .cjs, change the requiring code to use
+Aug 12 08:58:57 PM  import(), or remove "type": "module" from
+Aug 12 08:58:57 PM  /opt/render/project/src/node_modules/remark-mdx/package.json.
+Aug 12 08:58:57 PM  
+Aug 12 08:58:57 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1085:13)
+Aug 12 08:58:57 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 12 08:58:57 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+Aug 12 08:58:57 PM      at Module.require (internal/modules/cjs/loader.js:957:19)
+Aug 12 08:58:57 PM      at require (internal/modules/cjs/helpers.js:88:18)
+Aug 12 08:58:57 PM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 12 08:58:57 PM  ist/graphql-server/server.js:52:17)
+Aug 12 08:58:57 PM      at Module._compile (internal/modules/cjs/loader.js:1068:30)
+Aug 12 08:58:57 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+Aug 12 08:58:57 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 12 08:58:57 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14) {
+Aug 12 08:58:57 PM    code: 'ERR_REQUIRE_ESM'
+Aug 12 08:58:57 PM  }
+Aug 12 08:58:57 PM  
+Aug 12 08:58:57 PM  
+Aug 12 08:59:08 PM  success open and validate gatsby-configs - 0.295s
+
+Aug 12 08:59:12 PM   ERROR #11331  PLUGIN
+Aug 12 08:59:12 PM  
+Aug 12 08:59:12 PM  Invalid plugin options for "gatsby-plugin-manifest":
+Aug 12 08:59:12 PM  
+Aug 12 08:59:12 PM  - "value" must contain at least one of [icon, icons]
+Aug 12 08:59:12 PM  
+not finished load plugins - 4.298s
+Aug 12 08:59:12 PM  
+Aug 12 08:59:12 PM  npm ERR! code ELIFECYCLE
+Aug 12 08:59:12 PM  npm ERR! errno 1
+Aug 12 08:59:13 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 12 08:59:13 PM  npm ERR! Exit status 1
+Aug 12 08:59:13 PM  npm ERR!
+Aug 12 08:59:13 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 12 08:59:13 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 12 08:59:13 PM  
+Aug 12 08:59:13 PM  npm ERR! A complete log of this run can be found in:
+Aug 12 08:59:13 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-12T12_59_13_042Z-debug.log
+Aug 12 08:59:13 PM  error Command failed with exit code 1.
+Aug 12 08:59:13 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

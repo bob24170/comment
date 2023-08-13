@@ -1,0 +1,174 @@
+Aug 13 09:19:16 PM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 13 09:19:17 PM  ==> Checking out commit 70ddbc608bef336d8ef3e4a149714c558569c201 in branch main
+Aug 13 09:19:21 PM  ==> Using Node version 14.17.0 (default)
+Aug 13 09:19:21 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 13 09:19:21 PM  ==> Running build command 'npm install'...
+Aug 13 09:19:21 PM  ==> Using Node version 14.17.0 (default)
+Aug 13 09:19:21 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 13 09:19:21 PM  ==> Running build command 'npm install'...
+Aug 13 09:19:21 PM  ==> Using Node version 14.17.0 (default)
+Aug 13 09:19:21 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 13 09:19:21 PM  ==> Running build command 'npm install'...
+Aug 13 09:20:33 PM  
+Aug 13 09:20:33 PM  > msgpackr-extract@3.0.2 install /opt/render/project/src/node_modules/msgpackr-extract
+Aug 13 09:20:33 PM  > node-gyp-build-optional-packages
+Aug 13 09:20:33 PM  
+Aug 13 09:20:34 PM  
+Aug 13 09:20:34 PM  > lmdb@2.5.2 install /opt/render/project/src/node_modules/@parcel/cache/node_modules/lmdb
+Aug 13 09:20:34 PM  > node-gyp-build-optional-packages
+Aug 13 09:20:34 PM  
+Aug 13 09:20:34 PM  
+Aug 13 09:20:34 PM  > lmdb@2.5.3 install /opt/render/project/src/node_modules/lmdb
+Aug 13 09:20:34 PM  > node-gyp-build-optional-packages
+Aug 13 09:20:34 PM  
+Aug 13 09:20:34 PM  
+Aug 13 09:20:34 PM  > sharp@0.27.2 install /opt/render/project/src/node_modules/gatsby-plugin-manifest/node_modules/sharp
+Aug 13 09:20:34 PM  > (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+Aug 13 09:20:34 PM  
+Aug 13 09:20:35 PM  info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.10.5/libvips-8.10.5-linux-x64.tar.br
+Aug 13 09:20:37 PM  
+Aug 13 09:20:37 PM  > sharp@0.27.2 install /opt/render/project/src/node_modules/gatsby-transformer-sharp/node_modules/sharp
+Aug 13 09:20:37 PM  > (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+Aug 13 09:20:37 PM  
+Aug 13 09:20:38 PM  info sharp Using cached /opt/render/.cache/_libvips/libvips-8.10.5-linux-x64.tar.br
+Aug 13 09:20:39 PM  
+Aug 13 09:20:39 PM  > sharp@0.32.4 install /opt/render/project/src/node_modules/sharp
+Aug 13 09:20:39 PM  > (node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)
+Aug 13 09:20:39 PM  
+Aug 13 09:20:39 PM  sharp: Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.14.3/libvips-8.14.3-linux-x64.tar.br
+Aug 13 09:20:40 PM  sharp: Integrity check passed for linux-x64
+Aug 13 09:20:41 PM  
+Aug 13 09:20:41 PM  > core-js@2.6.12 postinstall /opt/render/project/src/node_modules/babel-runtime/node_modules/core-js
+Aug 13 09:20:41 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 13 09:20:41 PM  
+Aug 13 09:20:41 PM  
+Aug 13 09:20:41 PM  > core-js@3.6.5 postinstall /opt/render/project/src/node_modules/core-js
+Aug 13 09:20:41 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 13 09:20:41 PM  
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  > core-js-pure@3.32.0 postinstall /opt/render/project/src/node_modules/core-js-pure
+Aug 13 09:20:42 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  > core-js@3.32.0 postinstall /opt/render/project/src/node_modules/gatsby/node_modules/core-js
+Aug 13 09:20:42 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  > protobufjs@6.11.4 postinstall /opt/render/project/src/node_modules/@grpc/proto-loader/node_modules/protobufjs
+Aug 13 09:20:42 PM  > node scripts/postinstall
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  
+Aug 13 09:20:42 PM  > protobufjs@7.2.4 postinstall /opt/render/project/src/node_modules/protobufjs
+Aug 13 09:20:42 PM  > node scripts/postinstall
+Aug 13 09:20:42 PM  
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  > es5-ext@0.10.62 postinstall /opt/render/project/src/node_modules/es5-ext
+Aug 13 09:20:43 PM  >  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  > gatsby-telemetry@4.11.0 postinstall /opt/render/project/src/node_modules/gatsby-telemetry
+Aug 13 09:20:43 PM  > node src/postinstall.js || true
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  > gatsby-cli@5.11.0 postinstall /opt/render/project/src/node_modules/gatsby/node_modules/gatsby-cli
+Aug 13 09:20:43 PM  > node scripts/postinstall.js
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  
+Aug 13 09:20:43 PM  > gatsby@5.11.0 postinstall /opt/render/project/src/node_modules/gatsby
+Aug 13 09:20:43 PM  > node scripts/postinstall.js
+Aug 13 09:20:43 PM  
+Aug 13 09:20:46 PM  added 1773 packages from 1146 contributors and audited 1799 packages in 84.702s
+Aug 13 09:20:47 PM  
+Aug 13 09:20:47 PM  297 packages are looking for funding
+Aug 13 09:20:47 PM    run `npm fund` for details
+Aug 13 09:20:47 PM  
+Aug 13 09:20:47 PM  found 16 vulnerabilities (10 moderate, 6 high)
+Aug 13 09:20:47 PM    run `npm audit fix` to fix them, or `npm audit` for details
+Aug 13 09:20:49 PM  ==> Uploading build...
+Aug 13 09:21:03 PM  ==> Build uploaded in 10s
+Aug 13 09:21:04 PM  ==> Build successful 🎉
+Aug 13 09:21:04 PM  ==> Deploying...
+Aug 13 09:21:29 PM  ==> Using Node version 14.17.0 (default)
+Aug 13 09:21:29 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 13 09:21:29 PM  ==> Starting service with 'yarn start'
+Aug 13 09:21:31 PM  yarn run v1.22.5
+Aug 13 09:21:31 PM  $ npm run develop
+Aug 13 09:21:33 PM  
+Aug 13 09:21:33 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 13 09:21:33 PM  > gatsby develop
+Aug 13 09:21:33 PM  
+Aug 13 09:21:39 PM  
+Aug 13 09:21:39 PM   ERROR  UNKNOWN
+Aug 13 09:21:39 PM  
+Aug 13 09:21:39 PM  Gatsby requires Node.js 18.0.0 or higher (you have v14.17.0).
+Aug 13 09:21:39 PM  Upgrade Node to the latest stable release: https://gatsby.dev/upgrading-node-js
+Aug 13 09:21:39 PM  
+Aug 13 09:21:39 PM  
+Aug 13 09:21:39 PM  npm ERR! code ELIFECYCLE
+Aug 13 09:21:39 PM  npm ERR! errno 1
+Aug 13 09:21:39 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 13 09:21:39 PM  npm ERR! Exit status 1
+Aug 13 09:21:39 PM  npm ERR!
+Aug 13 09:21:39 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 13 09:21:39 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 13 09:21:39 PM  
+Aug 13 09:21:39 PM  npm ERR! A complete log of this run can be found in:
+Aug 13 09:21:39 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-13T13_21_39_405Z-debug.log
+Aug 13 09:21:39 PM  error Command failed with exit code 1.
+Aug 13 09:21:39 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Aug 13 09:21:43 PM  ==> Using Node version 14.17.0 (default)
+Aug 13 09:21:43 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 13 09:21:43 PM  ==> Starting service with 'yarn start'
+Aug 13 09:21:44 PM  yarn run v1.22.5
+Aug 13 09:21:44 PM  $ npm run develop
+Aug 13 09:21:46 PM  
+Aug 13 09:21:46 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 13 09:21:46 PM  > gatsby develop
+Aug 13 09:21:46 PM  
+Aug 13 09:21:52 PM  
+Aug 13 09:21:52 PM   ERROR  UNKNOWN
+Aug 13 09:21:52 PM  
+Aug 13 09:21:52 PM  Gatsby requires Node.js 18.0.0 or higher (you have v14.17.0).
+Aug 13 09:21:52 PM  Upgrade Node to the latest stable release: https://gatsby.dev/upgrading-node-js
+Aug 13 09:21:52 PM  
+Aug 13 09:21:52 PM  
+Aug 13 09:21:52 PM  npm ERR! code ELIFECYCLE
+Aug 13 09:21:52 PM  npm ERR! errno 1
+Aug 13 09:21:52 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 13 09:21:52 PM  npm ERR! Exit status 1
+Aug 13 09:21:52 PM  npm ERR!
+Aug 13 09:21:52 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 13 09:21:52 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 13 09:21:52 PM  
+Aug 13 09:21:52 PM  npm ERR! A complete log of this run can be found in:
+Aug 13 09:21:52 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-13T13_21_52_504Z-debug.log
+Aug 13 09:21:52 PM  error Command failed with exit code 1.
+Aug 13 09:21:52 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Aug 13 09:22:09 PM  ==> Using Node version 14.17.0 (default)
+Aug 13 09:22:09 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 13 09:22:09 PM  ==> Starting service with 'yarn start'
+Aug 13 09:22:10 PM  yarn run v1.22.5
+Aug 13 09:22:10 PM  $ npm run develop
+Aug 13 09:22:12 PM  
+Aug 13 09:22:12 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 13 09:22:12 PM  > gatsby develop
+Aug 13 09:22:12 PM  
+Aug 13 09:22:18 PM  
+Aug 13 09:22:18 PM   ERROR  UNKNOWN
+Aug 13 09:22:18 PM  
+Aug 13 09:22:18 PM  Gatsby requires Node.js 18.0.0 or higher (you have v14.17.0).
+Aug 13 09:22:18 PM  Upgrade Node to the latest stable release: https://gatsby.dev/upgrading-node-js
+Aug 13 09:22:18 PM  
+Aug 13 09:22:18 PM  
+Aug 13 09:22:18 PM  npm ERR! code ELIFECYCLE
+Aug 13 09:22:18 PM  npm ERR! errno 1
+Aug 13 09:22:18 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 13 09:22:18 PM  npm ERR! Exit status 1
+Aug 13 09:22:18 PM  npm ERR!
+Aug 13 09:22:18 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 13 09:22:18 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 13 09:22:18 PM  
+Aug 13 09:22:18 PM  npm ERR! A complete log of this run can be found in:
+Aug 13 09:22:18 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-13T13_22_18_796Z-debug.log
+Aug 13 09:22:18 PM  error Command failed with exit code 1.
+Aug 13 09:22:18 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

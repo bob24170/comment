@@ -6,7 +6,7 @@
   "author": "Aman Thakur",
   "engines": {
     "node": "18.0.0"
-  }
+  },
   "dependencies": {
     "firebase": "^7.15.5",
     "gatsby": "^5.11.0",

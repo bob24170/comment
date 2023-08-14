@@ -4,6 +4,9 @@
   "description": "A simple with commenting system using Firebase",
   "version": "0.1.0",
   "author": "Aman Thakur",
+  "engines": {
+    "node": ">=14 <15"
+  }
   "dependencies": {
     "firebase": "^7.15.5",
     "gatsby": "^5.11.0",

@@ -1,0 +1,89 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog-comments-step4_e
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+i  Using project comment-66100 (comment)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? public
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
++  Wrote public/404.html
+? File public/index.html already exists. Overwrite? No
+i  Skipping write of public/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase serve --only hosting --port=5002
+i  hosting[comment-66100]: Serving hosting files from: public
++  hosting[comment-66100]: Local server: http://localhost:5002
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:26 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; WOW64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:28 +0000] "GET /__/firebase/10.1.0/firebase-app.js HTTP/1.1" 200 20776 "htt
+p://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Sa
+fari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:28 +0000] "GET /__/firebase/10.1.0/firebase-database.js HTTP/1.1" 200 48724
+ "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.
+71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:28 +0000] "GET /__/firebase/10.1.0/firebase-messaging.js HTTP/1.1" 200 8652
+ "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.
+71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:29 +0000] "GET /__/firebase/10.1.0/firebase-auth.js HTTP/1.1" 200 37983 "ht
+tp://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 S
+afari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:29 +0000] "GET /__/firebase/10.1.0/firebase-storage.js HTTP/1.1" 200 13882
+"http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.7
+1 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:29 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http:
+//localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safa
+ri/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:30 +0000] "GET /__/firebase/10.1.0/firebase-analytics.js HTTP/1.1" 200 9401
+ "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.
+71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:30 +0000] "GET /__/firebase/10.1.0/firebase-firestore.js HTTP/1.1" 200 1102
+45 "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.460
+6.71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:30 +0000] "GET /__/firebase/10.1.0/firebase-functions.js HTTP/1.1" 200 4467
+ "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.
+71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:30 +0000] "GET /__/firebase/10.1.0/firebase-remote-config.js HTTP/1.1" 200
+9036 "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4
+606.71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:32 +0000] "GET /__/firebase/10.1.0/firebase-performance.js HTTP/1.1" 200 10
+865 "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.46
+06.71 Safari/537.36"
+i  hosting: 127.0.0.1 - - [15/Aug/2023:12:17:32 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5002/" "Mozil
+la/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36"

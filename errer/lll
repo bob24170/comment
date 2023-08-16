@@ -1,0 +1,76 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> firebase login
+Already logged in as aaa2417002@gmail.com
+PS C:\Users\88> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88
+
+Before we get started, keep in mind:
+
+  * You are initializing your home directory as a Firebase project directory
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? No
+
+Error: Aborted by user.
+
+╭───────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────╮
+│
+│
+│                                          Update available 12.4.7 → 12.4.8
+│
+│                                   To update to the latest version using npm, run
+│
+│                                            npm install -g firebase-tools
+│
+│   For other CLI management options, visit the CLI documentation (https://firebase.google.com/docs/cli#update-cli)
+│
+│
+│
+│
+│
+│
+│
+╰───────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────╯
+
+PS C:\Users\88> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying storage, firestore, hosting
+i  firebase.storage: checking storage.rules for compilation errors...
++  firebase.storage: rules file storage.rules compiled successfully
+i  firestore: reading indexes from firestore.indexes.json...
+i  cloud.firestore: checking firestore.rules for compilation errors...
++  cloud.firestore: rules file firestore.rules compiled successfully
+i  storage: latest version of storage.rules already up to date, skipping upload...
+i  firestore: deploying indexes...
++  firestore: deployed indexes in firestore.indexes.json successfully for (default) database
+i  firestore: latest version of firestore.rules already up to date, skipping upload...
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 2 files in public
++  hosting[comment-66100]: file upload complete
++  storage: released rules storage.rules to firebase.storage
++  firestore: released rules firestore.rules to cloud.firestore
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88>

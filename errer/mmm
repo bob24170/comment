@@ -430,3 +430,519 @@ i  hosting[comment-66100]: releasing new version...
 Project Console: https://console.firebase.google.com/project/comment-66100/overview
 Hosting URL: https://comment-66100.web.app
 PS C:\Users\88>
+
+
+
+
+
+
+Aug 17 09:24:37 PM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 17 09:24:38 PM  ==> Checking out commit 7a78dd890dd8f3fdb410dd5ba67880cf89d66a93 in branch main
+Aug 17 09:24:42 PM  ==> Using Node version 14.17.0 (default)
+Aug 17 09:24:42 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 17 09:24:42 PM  ==> Running build command 'npm install'...
+Aug 17 09:26:04 PM  
+Aug 17 09:26:04 PM  > sharp@0.27.2 install /opt/render/project/src/node_modules/sharp
+Aug 17 09:26:04 PM  > (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+Aug 17 09:26:04 PM  
+Aug 17 09:26:04 PM  info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.10.5/libvips-8.10.5-linux-x64.tar.br
+Aug 17 09:26:07 PM  
+Aug 17 09:26:07 PM  > core-js@2.6.12 postinstall /opt/render/project/src/node_modules/babel-runtime/node_modules/core-js
+Aug 17 09:26:07 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 17 09:26:07 PM  
+Aug 17 09:26:08 PM  
+Aug 17 09:26:08 PM  > core-js@3.6.5 postinstall /opt/render/project/src/node_modules/core-js
+Aug 17 09:26:08 PM  > node -e "try{require('./postinstall')}catch(e){}"
+Aug 17 09:26:08 PM  
+Aug 17 09:26:08 PM  
+Aug 17 09:26:08 PM  > protobufjs@6.11.4 postinstall /opt/render/project/src/node_modules/@grpc/proto-loader/node_modules/protobufjs
+Aug 17 09:26:08 PM  > node scripts/postinstall
+Aug 17 09:26:08 PM  
+Aug 17 09:26:09 PM  
+Aug 17 09:26:09 PM  > protobufjs@7.2.4 postinstall /opt/render/project/src/node_modules/protobufjs
+Aug 17 09:26:09 PM  > node scripts/postinstall
+Aug 17 09:26:09 PM  
+Aug 17 09:26:09 PM  
+Aug 17 09:26:09 PM  > es5-ext@0.10.62 postinstall /opt/render/project/src/node_modules/es5-ext
+Aug 17 09:26:09 PM  >  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+Aug 17 09:26:09 PM  
+Aug 17 09:26:10 PM  
+Aug 17 09:26:10 PM  > gatsby-telemetry@1.10.2 postinstall /opt/render/project/src/node_modules/gatsby-telemetry
+Aug 17 09:26:10 PM  > node src/postinstall.js || true
+Aug 17 09:26:10 PM  
+Aug 17 09:26:10 PM  
+Aug 17 09:26:10 PM  > mozjpeg@7.1.1 postinstall /opt/render/project/src/node_modules/mozjpeg
+Aug 17 09:26:10 PM  > node lib/install.js
+Aug 17 09:26:10 PM  
+Aug 17 09:26:10 PM  mozjpeg pre-build test passed successfully
+Aug 17 09:26:10 PM  
+Aug 17 09:26:10 PM  > pngquant-bin@6.0.1 postinstall /opt/render/project/src/node_modules/pngquant-bin
+Aug 17 09:26:10 PM  > node lib/install.js
+Aug 17 09:26:10 PM  
+Aug 17 09:26:11 PM  pngquant pre-build test passed successfully
+Aug 17 09:26:11 PM  
+Aug 17 09:26:11 PM  > gatsby-cli@2.19.3 postinstall /opt/render/project/src/node_modules/gatsby/node_modules/gatsby-cli
+Aug 17 09:26:11 PM  > node scripts/postinstall.js
+Aug 17 09:26:11 PM  
+Aug 17 09:26:11 PM  
+Aug 17 09:26:11 PM  > gatsby@2.32.13 postinstall /opt/render/project/src/node_modules/gatsby
+Aug 17 09:26:11 PM  > node scripts/postinstall.js
+Aug 17 09:26:11 PM  
+Aug 17 09:26:14 PM  added 2673 packages from 1135 contributors and audited 2678 packages in 91.819s
+Aug 17 09:26:16 PM  
+Aug 17 09:26:16 PM  330 packages are looking for funding
+Aug 17 09:26:16 PM    run `npm fund` for details
+Aug 17 09:26:16 PM  
+Aug 17 09:26:16 PM  found 68 vulnerabilities (3 low, 34 moderate, 26 high, 5 critical)
+Aug 17 09:26:16 PM    run `npm audit fix` to fix them, or `npm audit` for details
+Aug 17 09:26:29 PM  ==> Build uploaded in 9s
+Aug 17 09:26:29 PM  ==> Build successful 🎉
+Aug 17 09:26:29 PM  ==> Deploying...
+Aug 17 09:26:55 PM  ==> Using Node version 14.17.0 (default)
+Aug 17 09:26:55 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 17 09:26:55 PM  ==> Starting service with 'yarn start'
+Aug 17 09:26:56 PM  yarn run v1.22.5
+Aug 17 09:26:56 PM  $ npm run develop
+Aug 17 09:26:58 PM  
+Aug 17 09:26:58 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 17 09:26:58 PM  > gatsby develop
+Aug 17 09:26:58 PM  
+Aug 17 09:27:23 PM  internal/modules/cjs/loader.js:1085
+Aug 17 09:27:23 PM        throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+Aug 17 09:27:23 PM        ^
+Aug 17 09:27:23 PM  
+Aug 17 09:27:23 PM  Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:
+Aug 17 09:27:23 PM  /opt/render/project/src/node_modules/remark-mdx/index.js
+Aug 17 09:27:23 PM  require() of ES modules is not supported.
+Aug 17 09:27:23 PM  require() of /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/
+Aug 17 09:27:23 PM  render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.js is
+Aug 17 09:27:23 PM  an ES module file as it is a .js file whose nearest parent package.json contains
+Aug 17 09:27:23 PM   "type": "module" which defines all .js files in that package scope as ES
+Aug 17 09:27:23 PM  modules.
+Aug 17 09:27:23 PM  Instead rename index.js to end in .cjs, change the requiring code to use
+Aug 17 09:27:23 PM  import(), or remove "type": "module" from
+Aug 17 09:27:23 PM  /opt/render/project/src/node_modules/remark-mdx/package.json.
+Aug 17 09:27:23 PM  
+Aug 17 09:27:23 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1085:13)
+Aug 17 09:27:23 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 17 09:27:23 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+Aug 17 09:27:23 PM      at Module.require (internal/modules/cjs/loader.js:957:19)
+Aug 17 09:27:23 PM      at require (internal/modules/cjs/helpers.js:88:18)
+Aug 17 09:27:23 PM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 17 09:27:23 PM  ist/graphql-server/server.js:52:17)
+Aug 17 09:27:23 PM      at Module._compile (internal/modules/cjs/loader.js:1068:30)
+Aug 17 09:27:23 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+Aug 17 09:27:23 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 17 09:27:23 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14) {
+Aug 17 09:27:23 PM    code: 'ERR_REQUIRE_ESM'
+Aug 17 09:27:23 PM  }
+Aug 17 09:27:23 PM  
+Aug 17 09:27:23 PM  
+Aug 17 09:27:34 PM  success open and validate gatsby-configs - 0.397s
+success load plugins - 5.296s
+
+Aug 17 09:27:39 PM   ERROR #11321  PLUGIN
+Aug 17 09:27:39 PM  
+Aug 17 09:27:39 PM  "gatsby-plugin-manifest" threw an error while running the onPreInit lifecycle:
+Aug 17 09:27:39 PM  
+Aug 17 09:27:39 PM  ENOENT: no such file or directory, open 'src/images/gatsby-icon.png'
+Aug 17 09:27:39 PM  
+Aug 17 09:27:39 PM    139 |
+Aug 17 09:27:39 PM    140 |   if (pluginOptions.cache_busting_mode !== "none" && pluginOptions.icon)
+Aug 17 09:27:39 PM   {
+Aug 17 09:27:39 PM  > 141 |     pluginOptions.cacheDigest = (0,
+Aug 17 09:27:39 PM  _gatsbyCoreUtils.createContentDigest)(fs.readFileSync(pluginOptions.icon));
+Aug 17 09:27:39 PM        |
+Aug 17 09:27:39 PM       ^
+Aug 17 09:27:39 PM    142 |   }
+Aug 17 09:27:39 PM    143 | };
+Aug 17 09:27:39 PM    144 |
+Aug 17 09:27:39 PM  
+Aug 17 09:27:39 PM  File: node_modules/gatsby-plugin-manifest/gatsby-node.js:141:78
+Aug 17 09:27:39 PM  
+
+Aug 17 09:27:39 PM  
+Aug 17 09:27:39 PM    Error: ENOENT: no such file or directory, open 'src/images/gatsby-icon.png'
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - gatsby-node.js:141 Object.exports.onPreInit
+Aug 17 09:27:39 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:141:78
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - api-runner-node.js:485 runAPI
+Aug 17 09:27:39 PM      [src]/[gatsby]/src/utils/api-runner-node.js:485:22
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - api-runner-node.js:636 Promise.catch.decorateEvent.pluginName
+Aug 17 09:27:39 PM      [src]/[gatsby]/src/utils/api-runner-node.js:636:13
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - debuggability.js:384 Promise._execute
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/debuggability.js:384:9
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - promise.js:518 Promise._resolveFromExecutor
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/promise.js:518:18
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - promise.js:103 new Promise
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/promise.js:103:10
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - api-runner-node.js:634 
+Aug 17 09:27:39 PM      [src]/[gatsby]/src/utils/api-runner-node.js:634:16
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - util.js:16 tryCatcher
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/util.js:16:23
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - reduce.js:166 Object.gotValue
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/reduce.js:166:18
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - reduce.js:155 Object.gotAccum
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/reduce.js:155:25
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - util.js:16 Object.tryCatcher
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/util.js:16:23
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - promise.js:547 Promise._settlePromiseFromHandler
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/promise.js:547:31
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - promise.js:604 Promise._settlePromise
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/promise.js:604:18
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM    - promise.js:649 Promise._settlePromise0
+Aug 17 09:27:39 PM      [src]/[bluebird]/js/release/promise.js:649:10
+Aug 17 09:27:39 PM    
+Aug 17 09:27:39 PM  
+success onPreInit - 0.701s
+success delete html and css files from previous builds - 0.002s
+success initialize cache - 0.089s
+success copy gatsby files - 0.301s
+success onPreBootstrap - 0.096s
+success createSchemaCustomization - 0.005s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 1.002s
+success building schema - 3.198s
+info Total nodes: 52, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.312s
+success Checking for changed pages - 0.086s
+success createPagesStatefully - 0.408s
+success update schema - 0.190s
+success write out redirect data - 0.001s
+success Build manifest and related icons - 0.001s
+
+Aug 17 09:27:47 PM   ERROR #11321  PLUGIN
+Aug 17 09:27:47 PM  
+Aug 17 09:27:47 PM  "gatsby-plugin-manifest" threw an error while running the onPostBootstrap
+Aug 17 09:27:47 PM  lifecycle:
+Aug 17 09:27:47 PM  
+Aug 17 09:27:47 PM  icon (src/images/gatsby-icon.png) does not exist as defined in gatsby-config.js.
+Aug 17 09:27:47 PM   Make sure the file exists relative to the root of the site.
+Aug 17 09:27:47 PM  
+Aug 17 09:27:47 PM    344 |             }
+Aug 17 09:27:47 PM    345 |
+Aug 17 09:27:47 PM  > 346 |             throw new Error("icon (" + icon + ") does not exist as
+Aug 17 09:27:47 PM  defined in gatsby-config.js. Make sure the file exists relative to the root of
+Aug 17 09:27:47 PM  the site.");
+Aug 17 09:27:47 PM        |                   ^
+Aug 17 09:27:47 PM    347 |
+Aug 17 09:27:47 PM    348 |           case 19:
+Aug 17 09:27:47 PM    349 |             sharpIcon = (0, _safeSharp.default)(icon);
+Aug 17 09:27:47 PM  
+Aug 17 09:27:47 PM  File: node_modules/gatsby-plugin-manifest/gatsby-node.js:346:19
+Aug 17 09:27:47 PM  
+
+Aug 17 09:27:47 PM  
+Aug 17 09:27:47 PM    Error: icon (src/images/gatsby-icon.png) does not exist as defined in gatsby-c
+Aug 17 09:27:47 PM    onfig.js. Make sure the file exists relative to the root of the site.
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - gatsby-node.js:346 _callee3$
+Aug 17 09:27:47 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:346:19
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - regeneratorRuntime.js:44 tryCatch
+Aug 17 09:27:47 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:44:17
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - regeneratorRuntime.js:128 Generator.<anonymous>
+Aug 17 09:27:47 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:128:22
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - regeneratorRuntime.js:69 Generator.next
+Aug 17 09:27:47 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:69:21
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - new Promise
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - gatsby-node.js:406 makeManifest
+Aug 17 09:27:47 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:406:18
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - gatsby-node.js:160 _callee$
+Aug 17 09:27:47 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:160:20
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - regeneratorRuntime.js:44 tryCatch
+Aug 17 09:27:47 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:44:17
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - regeneratorRuntime.js:128 Generator.<anonymous>
+Aug 17 09:27:47 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:128:22
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM    - regeneratorRuntime.js:69 Generator.next
+Aug 17 09:27:47 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:69:21
+Aug 17 09:27:47 PM    
+Aug 17 09:27:47 PM  
+success onPostBootstrap - 0.596s
+info bootstrap finished - 38.595s
+success onPreExtractQueries - 0.001s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+Aug 17 09:27:49 PM  v3.
+Aug 17 09:27:49 PM  Import it instead like:  import { graphql } from 'gatsby' in file:
+Aug 17 09:27:49 PM  /opt/render/project/src/src/pages/index.js
+success extract queries from components - 3.800s
+success write out requires - 0.003s
+success run static queries - 0.047s - 2/2 42.32/s
+success run page queries - 0.196s - 2/2 10.20/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+Aug 17 09:27:56 PM  `isImportOrExportDeclaration`
+Aug 17 09:27:56 PM      at isModuleDeclaration (/opt/render/project/src/node_modules/@babel/types/li
+Aug 17 09:27:56 PM  b/validators/generated/index.js:2740:35)
+Aug 17 09:27:56 PM      at PluginPass.Program
+Aug 17 09:27:56 PM  (/opt/render/project/src/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+Aug 17 09:27:56 PM  
+Aug 17 09:28:43 PM  Killed
+Aug 17 09:28:43 PM  npm ERR! code ELIFECYCLE
+Aug 17 09:28:43 PM  npm ERR! errno 137
+Aug 17 09:28:43 PM  npm ERR! gatsby-starter-default@0.1.0 develop: `gatsby develop`
+Aug 17 09:28:43 PM  npm ERR! Exit status 137
+Aug 17 09:28:43 PM  npm ERR!
+Aug 17 09:28:43 PM  npm ERR! Failed at the gatsby-starter-default@0.1.0 develop script.
+Aug 17 09:28:43 PM  npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+Aug 17 09:28:43 PM  
+Aug 17 09:28:43 PM  npm ERR! A complete log of this run can be found in:
+Aug 17 09:28:43 PM  npm ERR!     /opt/render/.cache/_logs/2023-08-17T13_28_43_310Z-debug.log
+Aug 17 09:28:43 PM  error Command failed with exit code 137.
+Aug 17 09:28:43 PM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Aug 17 09:29:15 PM  ==> Using Node version 14.17.0 (default)
+Aug 17 09:29:15 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 17 09:29:15 PM  ==> Starting service with 'yarn start'
+Aug 17 09:29:16 PM  yarn run v1.22.5
+Aug 17 09:29:17 PM  $ npm run develop
+Aug 17 09:29:18 PM  
+Aug 17 09:29:18 PM  > gatsby-starter-default@0.1.0 develop /opt/render/project/src
+Aug 17 09:29:18 PM  > gatsby develop
+Aug 17 09:29:18 PM  
+Aug 17 09:29:45 PM  internal/modules/cjs/loader.js:1085
+Aug 17 09:29:45 PM        throw new ERR_REQUIRE_ESM(filename, parentPath, packageJsonPath);
+Aug 17 09:29:45 PM        ^
+Aug 17 09:29:45 PM  
+Aug 17 09:29:45 PM  Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:
+Aug 17 09:29:45 PM  /opt/render/project/src/node_modules/remark-mdx/index.js
+Aug 17 09:29:45 PM  require() of ES modules is not supported.
+Aug 17 09:29:45 PM  require() of /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/
+Aug 17 09:29:45 PM  render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.js is
+Aug 17 09:29:45 PM  an ES module file as it is a .js file whose nearest parent package.json contains
+Aug 17 09:29:45 PM   "type": "module" which defines all .js files in that package scope as ES
+Aug 17 09:29:45 PM  modules.
+Aug 17 09:29:45 PM  Instead rename index.js to end in .cjs, change the requiring code to use
+Aug 17 09:29:45 PM  import(), or remove "type": "module" from
+Aug 17 09:29:45 PM  /opt/render/project/src/node_modules/remark-mdx/package.json.
+Aug 17 09:29:45 PM  
+Aug 17 09:29:45 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1085:13)
+Aug 17 09:29:45 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 17 09:29:45 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+Aug 17 09:29:45 PM      at Module.require (internal/modules/cjs/loader.js:957:19)
+Aug 17 09:29:45 PM      at require (internal/modules/cjs/helpers.js:88:18)
+Aug 17 09:29:45 PM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 17 09:29:45 PM  ist/graphql-server/server.js:52:17)
+Aug 17 09:29:45 PM      at Module._compile (internal/modules/cjs/loader.js:1068:30)
+Aug 17 09:29:45 PM      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+Aug 17 09:29:45 PM      at Module.load (internal/modules/cjs/loader.js:933:32)
+Aug 17 09:29:45 PM      at Function.Module._load (internal/modules/cjs/loader.js:774:14) {
+Aug 17 09:29:45 PM    code: 'ERR_REQUIRE_ESM'
+Aug 17 09:29:45 PM  }
+Aug 17 09:29:45 PM  
+Aug 17 09:29:45 PM  
+Aug 17 09:29:55 PM  success open and validate gatsby-configs - 0.290s
+success load plugins - 6.514s
+
+Aug 17 09:30:02 PM   ERROR #11321  PLUGIN
+Aug 17 09:30:02 PM  
+Aug 17 09:30:02 PM  "gatsby-plugin-manifest" threw an error while running the onPreInit lifecycle:
+Aug 17 09:30:02 PM  
+Aug 17 09:30:02 PM  ENOENT: no such file or directory, open 'src/images/gatsby-icon.png'
+Aug 17 09:30:02 PM  
+Aug 17 09:30:02 PM    139 |
+Aug 17 09:30:02 PM    140 |   if (pluginOptions.cache_busting_mode !== "none" && pluginOptions.icon)
+Aug 17 09:30:02 PM   {
+Aug 17 09:30:02 PM  > 141 |     pluginOptions.cacheDigest = (0,
+Aug 17 09:30:02 PM  _gatsbyCoreUtils.createContentDigest)(fs.readFileSync(pluginOptions.icon));
+Aug 17 09:30:02 PM        |
+Aug 17 09:30:02 PM       ^
+Aug 17 09:30:02 PM    142 |   }
+Aug 17 09:30:02 PM    143 | };
+Aug 17 09:30:02 PM    144 |
+Aug 17 09:30:02 PM  
+Aug 17 09:30:02 PM  File: node_modules/gatsby-plugin-manifest/gatsby-node.js:141:78
+Aug 17 09:30:02 PM  
+
+Aug 17 09:30:03 PM  
+Aug 17 09:30:03 PM    Error: ENOENT: no such file or directory, open 'src/images/gatsby-icon.png'
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - gatsby-node.js:141 Object.exports.onPreInit
+Aug 17 09:30:03 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:141:78
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - api-runner-node.js:485 runAPI
+Aug 17 09:30:03 PM      [src]/[gatsby]/src/utils/api-runner-node.js:485:22
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - api-runner-node.js:636 Promise.catch.decorateEvent.pluginName
+Aug 17 09:30:03 PM      [src]/[gatsby]/src/utils/api-runner-node.js:636:13
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - debuggability.js:384 Promise._execute
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/debuggability.js:384:9
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - promise.js:518 Promise._resolveFromExecutor
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/promise.js:518:18
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - promise.js:103 new Promise
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/promise.js:103:10
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - api-runner-node.js:634 
+Aug 17 09:30:03 PM      [src]/[gatsby]/src/utils/api-runner-node.js:634:16
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - util.js:16 tryCatcher
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/util.js:16:23
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - reduce.js:166 Object.gotValue
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/reduce.js:166:18
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - reduce.js:155 Object.gotAccum
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/reduce.js:155:25
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - util.js:16 Object.tryCatcher
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/util.js:16:23
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - promise.js:547 Promise._settlePromiseFromHandler
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/promise.js:547:31
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - promise.js:604 Promise._settlePromise
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/promise.js:604:18
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM    - promise.js:649 Promise._settlePromise0
+Aug 17 09:30:03 PM      [src]/[bluebird]/js/release/promise.js:649:10
+Aug 17 09:30:03 PM    
+Aug 17 09:30:03 PM  
+success onPreInit - 0.682s
+success delete html and css files from previous builds - 0.042s
+success initialize cache - 0.060s
+success copy gatsby files - 0.369s
+success onPreBootstrap - 0.038s
+success createSchemaCustomization - 0.494s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.702s
+success building schema - 3.505s
+info Total nodes: 52, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.335s
+success Checking for changed pages - 0.000s
+success createPagesStatefully - 0.372s
+success update schema - 0.289s
+success write out redirect data - 0.024s
+success Build manifest and related icons - 0.001s
+
+Aug 17 09:30:10 PM   ERROR #11321  PLUGIN
+Aug 17 09:30:10 PM  
+Aug 17 09:30:10 PM  "gatsby-plugin-manifest" threw an error while running the onPostBootstrap
+Aug 17 09:30:10 PM  lifecycle:
+Aug 17 09:30:10 PM  
+Aug 17 09:30:10 PM  icon (src/images/gatsby-icon.png) does not exist as defined in gatsby-config.js.
+Aug 17 09:30:10 PM   Make sure the file exists relative to the root of the site.
+Aug 17 09:30:10 PM  
+Aug 17 09:30:10 PM    344 |             }
+Aug 17 09:30:10 PM    345 |
+Aug 17 09:30:10 PM  > 346 |             throw new Error("icon (" + icon + ") does not exist as
+Aug 17 09:30:10 PM  defined in gatsby-config.js. Make sure the file exists relative to the root of
+Aug 17 09:30:10 PM  the site.");
+Aug 17 09:30:10 PM        |                   ^
+Aug 17 09:30:10 PM    347 |
+Aug 17 09:30:10 PM    348 |           case 19:
+Aug 17 09:30:10 PM    349 |             sharpIcon = (0, _safeSharp.default)(icon);
+Aug 17 09:30:10 PM  
+Aug 17 09:30:10 PM  File: node_modules/gatsby-plugin-manifest/gatsby-node.js:346:19
+Aug 17 09:30:10 PM  
+
+Aug 17 09:30:11 PM  
+Aug 17 09:30:11 PM    Error: icon (src/images/gatsby-icon.png) does not exist as defined in gatsby-c
+Aug 17 09:30:11 PM    onfig.js. Make sure the file exists relative to the root of the site.
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - gatsby-node.js:346 _callee3$
+Aug 17 09:30:11 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:346:19
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - regeneratorRuntime.js:44 tryCatch
+Aug 17 09:30:11 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:44:17
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - regeneratorRuntime.js:128 Generator.<anonymous>
+Aug 17 09:30:11 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:128:22
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - regeneratorRuntime.js:69 Generator.next
+Aug 17 09:30:11 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:69:21
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - new Promise
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - gatsby-node.js:406 makeManifest
+Aug 17 09:30:11 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:406:18
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - gatsby-node.js:160 _callee$
+Aug 17 09:30:11 PM      [src]/[gatsby-plugin-manifest]/gatsby-node.js:160:20
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - regeneratorRuntime.js:44 tryCatch
+Aug 17 09:30:11 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:44:17
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - regeneratorRuntime.js:128 Generator.<anonymous>
+Aug 17 09:30:11 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:128:22
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM    - regeneratorRuntime.js:69 Generator.next
+Aug 17 09:30:11 PM      [src]/[@babel]/runtime/helpers/regeneratorRuntime.js:69:21
+Aug 17 09:30:11 PM    
+Aug 17 09:30:11 PM  
+success onPostBootstrap - 0.378s
+info bootstrap finished - 41.700s
+success onPreExtractQueries - 0.002s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+Aug 17 09:30:13 PM  v3.
+Aug 17 09:30:13 PM  Import it instead like:  import { graphql } from 'gatsby' in file:
+Aug 17 09:30:13 PM  /opt/render/project/src/src/pages/index.js
+success extract queries from components - 4.000s
+success write out requires - 0.043s
+success run static queries - 0.022s - 2/2 90.76/s
+success run page queries - 0.180s - 2/2 11.12/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+Aug 17 09:30:20 PM  `isImportOrExportDeclaration`
+Aug 17 09:30:20 PM      at isModuleDeclaration (/opt/render/project/src/node_modules/@babel/types/li
+Aug 17 09:30:20 PM  b/validators/generated/index.js:2740:35)
+Aug 17 09:30:20 PM      at PluginPass.Program
+Aug 17 09:30:20 PM  (/opt/render/project/src/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+info
+Aug 17 09:31:35 PM  Hi from the Gatsby maintainers! Based on what we see in your site, these coming
+Aug 17 09:31:35 PM  features may help you. All of these can be enabled within gatsby-config.js via
+Aug 17 09:31:35 PM  flags (samples below)
+Aug 17 09:31:35 PM  
+Aug 17 09:31:35 PM  Preserve webpack's Cache (https://github.com/gatsbyjs/gatsby/discussions/28331),
+Aug 17 09:31:35 PM   which changes Gatsby's cache clearing behavior to not clear webpack's
+Aug 17 09:31:35 PM  cache unless you run "gatsby clean" or delete the .cache folder manually.
+Aug 17 09:31:35 PM  Here's how to try it:
+Aug 17 09:31:35 PM  
+Aug 17 09:31:35 PM  module.exports = {
+Aug 17 09:31:35 PM    flags: { PRESERVE_WEBPACK_CACHE: true },
+Aug 17 09:31:35 PM    plugins: [...]
+Aug 17 09:31:35 PM  }
+Aug 17 09:31:35 PM  
+⠀
+You can now view gatsby-starter-default in the browser.
+⠀
+  http://localhost:3000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and schema
+⠀
+  http://localhost:3000/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use gatsby build
+⠀
+warn "export 'firestore' was not found in '../../firebase.js'
+warn "export 'firestore' was not found in '../../firebase.js'
+warn ESLintError:
+Aug 17 09:31:35 PM  /opt/render/project/src/firebase.js
+Aug 17 09:31:35 PM    41:7  warning  'app' is assigned a value but never used  no-unused-vars
+Aug 17 09:31:35 PM  
+Aug 17 09:31:35 PM  ✖ 1 problem (0 errors, 1 warning)
+Aug 17 09:31:35 PM  
+success Building development bundle - 80.299s
+Aug 17 09:31:36 PM  
+

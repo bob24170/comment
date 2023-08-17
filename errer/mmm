@@ -946,3 +946,98 @@ Aug 17 09:31:35 PM
 success Building development bundle - 80.299s
 Aug 17 09:31:36 PM  
 
+
+
+
+
+
+
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> gatsby develop
+success open and validate gatsby-configs - 0.123s
+success load plugins - 2.301s
+success onPreInit - 0.057s
+success initialize cache - 0.067s
+success copy gatsby files - 0.219s
+success onPreBootstrap - 0.087s
+success createSchemaCustomization - 0.041s
+success Checking for changed pages - 0.002s
+success source and transform nodes - 0.211s
+success building schema - 0.487s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.073s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.184s
+success update schema - 0.050s
+success write out redirect data - 0.003s
+success Build manifest and related icons - 0.147s
+success onPostBootstrap - 0.157s
+info bootstrap finished - 9.186s
+success onPreExtractQueries - 0.002s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.621s
+success write out requires - 0.026s
+success run static queries - 0.028s - 2/2 72.51/s
+success run page queries - 0.064s - 3/3 46.99/s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration (C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\types\
+
+lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+
+ ERROR 
+
+error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building development bundle - 1.798s
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+

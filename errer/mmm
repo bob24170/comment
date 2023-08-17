@@ -33,6 +33,250 @@ PS C:\Users\88\Desktop\blog-comments-step4_e>
 Windows PowerShell
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
+PS C:\Users\88\Desktop\blog-comments-step4_e> gatsby develop
+╔═══════════════════════════════════════════════
+═════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to help improve Gatsby for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `gatsby telemetry --disable`   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚═══════════════════════════════════════════════
+═════════════════════════╝
+success open and validate gatsby-configs - 0.137s
+
+ ERROR #11331  PLUGIN
+
+Invalid plugin options for "gatsby-plugin-manifest":
+
+- "value" must contain at least one of [icon, icons]
+
+not finished load plugins - 8.876s
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> gatsby develop
+success open and validate gatsby-configs - 0.122s
+success load plugins - 2.592s
+
+ ERROR #11321  PLUGIN
+
+"gatsby-plugin-manifest" threw an error while running the onPreInit lifecycle:
+
+ENOENT: no such file or directory, open 'src/images/gatsby-icon.png'
+
+  139 |
+  140 |   if (pluginOptions.cache_busting_mode !== "none" && pluginOptions.icon) {
+> 141 |     pluginOptions.cacheDigest = (0,
+_gatsbyCoreUtils.createContentDigest)(fs.readFileSync(pluginOptions.icon));
+      |                                                                              ^
+  142 |   }
+  143 | };
+  144 |
+
+File: node_modules\gatsby-plugin-manifest\gatsby-node.js:141:78
+
+
+
+  Error: ENOENT: no such file or directory, open 'src/images/gatsby-icon.png'
+
+  - node:fs:603 Object.openSync
+    node:fs:603:3
+
+  - node:fs:471 Object.readFileSync
+    node:fs:471:35
+
+  - gatsby-node.js:141 Object.exports.onPreInit
+    [blog-comments-step4_e]/[gatsby-plugin-manifest]/gatsby-node.js:141:78
+
+  - api-runner-node.js:485 runAPI
+    [blog-comments-step4_e]/[gatsby]/src/utils/api-runner-node.js:485:22
+
+  - api-runner-node.js:636 Promise.catch.decorateEvent.pluginName
+    [blog-comments-step4_e]/[gatsby]/src/utils/api-runner-node.js:636:13
+
+  - debuggability.js:384 Promise._execute
+    [blog-comments-step4_e]/[bluebird]/js/release/debuggability.js:384:9
+
+  - promise.js:518 Promise._resolveFromExecutor
+    [blog-comments-step4_e]/[bluebird]/js/release/promise.js:518:18
+
+  - promise.js:103 new Promise
+    [blog-comments-step4_e]/[bluebird]/js/release/promise.js:103:10
+
+  - api-runner-node.js:634
+    [blog-comments-step4_e]/[gatsby]/src/utils/api-runner-node.js:634:16
+
+  - util.js:16 tryCatcher
+    [blog-comments-step4_e]/[bluebird]/js/release/util.js:16:23
+
+  - reduce.js:166 Object.gotValue
+    [blog-comments-step4_e]/[bluebird]/js/release/reduce.js:166:18
+
+  - reduce.js:155 Object.gotAccum
+    [blog-comments-step4_e]/[bluebird]/js/release/reduce.js:155:25
+
+  - util.js:16 Object.tryCatcher
+    [blog-comments-step4_e]/[bluebird]/js/release/util.js:16:23
+
+  - promise.js:547 Promise._settlePromiseFromHandler
+    [blog-comments-step4_e]/[bluebird]/js/release/promise.js:547:31
+
+  - promise.js:604 Promise._settlePromise
+    [blog-comments-step4_e]/[bluebird]/js/release/promise.js:604:18
+
+  - promise.js:649 Promise._settlePromise0
+    [blog-comments-step4_e]/[bluebird]/js/release/promise.js:649:10
+
+
+success onPreInit - 0.406s
+success initialize cache - 0.024s
+success copy gatsby files - 0.710s
+success onPreBootstrap - 0.098s
+success createSchemaCustomization - 0.025s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.228s
+success building schema - 0.406s
+info Total nodes: 52, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.058s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.112s
+success update schema - 0.042s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.004s
+
+ ERROR #11321  PLUGIN
+
+"gatsby-plugin-manifest" threw an error while running the onPostBootstrap lifecycle:
+
+icon (src/images/gatsby-icon.png) does not exist as defined in gatsby-config.js. Make sure the
+file exists relative to the root of the site.
+
+  344 |             }
+  345 |
+> 346 |             throw new Error("icon (" + icon + ") does not exist as defined in 
+gatsby-config.js. Make sure the file exists relative to the root of the site.");
+      |                   ^
+  347 |
+  348 |           case 19:
+  349 |             sharpIcon = (0, _safeSharp.default)(icon);
+
+File: node_modules\gatsby-plugin-manifest\gatsby-node.js:346:19
+
+
+
+  Error: icon (src/images/gatsby-icon.png) does not exist as defined in gatsby-config.js. Make s
+
+  ure the file exists relative to the root of the site.
+
+  - gatsby-node.js:346 _callee3$
+    [blog-comments-step4_e]/[gatsby-plugin-manifest]/gatsby-node.js:346:19
+
+  - regeneratorRuntime.js:44 tryCatch
+    [blog-comments-step4_e]/[@babel]/runtime/helpers/regeneratorRuntime.js:44:17
+
+  - regeneratorRuntime.js:128 Generator.<anonymous>
+    [blog-comments-step4_e]/[@babel]/runtime/helpers/regeneratorRuntime.js:128:22
+
+  - regeneratorRuntime.js:69 Generator.next
+    [blog-comments-step4_e]/[@babel]/runtime/helpers/regeneratorRuntime.js:69:21
+
+  - new Promise
+
+  - gatsby-node.js:406 makeManifest
+    [blog-comments-step4_e]/[gatsby-plugin-manifest]/gatsby-node.js:406:18
+
+  - gatsby-node.js:160 _callee$
+    [blog-comments-step4_e]/[gatsby-plugin-manifest]/gatsby-node.js:160:20
+
+  - regeneratorRuntime.js:44 tryCatch
+    [blog-comments-step4_e]/[@babel]/runtime/helpers/regeneratorRuntime.js:44:17
+
+  - regeneratorRuntime.js:128 Generator.<anonymous>
+    [blog-comments-step4_e]/[@babel]/runtime/helpers/regeneratorRuntime.js:128:22
+
+  - regeneratorRuntime.js:69 Generator.next
+    [blog-comments-step4_e]/[@babel]/runtime/helpers/regeneratorRuntime.js:69:21
+
+
+success onPostBootstrap - 0.219s
+info bootstrap finished - 10.260s
+success onPreExtractQueries - 0.004s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.905s
+success write out requires - 0.021s
+success run static queries - 0.030s - 2/2 66.79/s
+success run page queries - 0.069s - 3/3 43.75/s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration (C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\types\
+
+lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+
+ ERROR 
+
+error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building development bundle - 7.606s
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
 PS C:\Users\88> firebase init
 
      ######## #### ########  ######## ########     ###     ######  ########

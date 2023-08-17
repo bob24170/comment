@@ -1,0 +1,26 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> gatsby develop
+╔═══════════════════════════════════════════════
+═════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to help improve Gatsby for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `gatsby telemetry --disable`   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚═══════════════════════════════════════════════
+═════════════════════════╝
+success open and validate gatsby-configs - 0.137s
+
+ ERROR #11331  PLUGIN
+
+Invalid plugin options for "gatsby-plugin-manifest":
+
+- "value" must contain at least one of [icon, icons]
+
+not finished load plugins - 8.876s
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>

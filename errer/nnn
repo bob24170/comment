@@ -559,3 +559,28 @@ ailure
 [6048:0819/115816.826:ERROR:broker_win.cc(56)] Error reading broker pipe: The pi
 pe has been ended. (0x6D)
 
+
+
+
+
+
+
+
+cmd with vpn
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\88>cd C:\Users\88\Desktop\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog-comments-step4_e>firebase serve --only hosting --port=5
+002
+
+C:\Users\88\Desktop\blog-comments-step4_e>
+[0819/120014.052:ERROR:trace_logging_minimal_win.cc(80)] Provider resistration f
+ailure
+[0819/120014.898:ERROR:trace_logging_minimal_win.cc(80)] Provider resistration f
+ailure
+[4292:0819/120014.907:ERROR:broker_win.cc(56)] Error reading broker pipe: The pi
+pe has been ended. (0x6D)
+
+

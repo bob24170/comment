@@ -511,3 +511,16 @@ ailure
 pe has been ended. (0x6D)
 
 
+
+
+w/ vpn
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> firebase serve --only hosting --port=5002
+
+Error: Failed to get Firebase project comment-66100. Please make sure the project exists and your account has permission
+ to access it.
+PS C:\Users\88>
+
+

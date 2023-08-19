@@ -462,3 +462,16 @@ ailure
 pe has been ended. (0x6D)
 
 
+
+
+
+
+
+
+vscode
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase deploy
+
+Error: Failed to get details for project: comment-66100.
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+
+

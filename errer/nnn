@@ -418,3 +418,47 @@ i  hosting[comment-66100]: releasing new version...
 Project Console: https://console.firebase.google.com/project/comment-66100/overview
 Hosting URL: https://comment-66100.web.app
 PS C:\Users\88>
+
+
+
+
+
+
+
+
+
+Microsoft Windows cmd[Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>firebase deploy
+
+Error: Not in a Firebase app directory (could not locate firebase.json)
+
+   ╭─────────────────────────────────────
+───────────────────────────────╮
+   │                                                                    │
+   │                  Update available 12.4.7 → 12.4.8                  │
+   │           To update to the latest version using npm, run           │
+   │                   npm install -g firebase-tools                    │
+   │   For other CLI management options, visit the CLI documentation    │
+   │         (https://firebase.google.com/docs/cli#update-cli)          │
+   │                                                                    │
+   │                                                                    │
+   │                                                                    │
+   ╰─────────────────────────────────────
+───────────────────────────────╯
+
+
+C:\Windows\system32>cd C:\Users\88\Desktop\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog-comments-step4_e>firebase deploy
+
+C:\Users\88\Desktop\blog-comments-step4_e>
+[0819/114058.879:ERROR:trace_logging_minimal_win.cc(80)] Provider resistration f
+ailure
+[0819/114059.909:ERROR:trace_logging_minimal_win.cc(80)] Provider resistration f
+ailure
+[5460:0819/114059.925:ERROR:broker_win.cc(56)] Error reading broker pipe: The pi
+pe has been ended. (0x6D)
+
+

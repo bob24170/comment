@@ -75,3 +75,270 @@ To create a production build, use gatsby build
 ⠀
 success Building development bundle - 31.152s
 
+
+
+
+
+
+
+
+
+
+
+Aug 19 11:02:34 AM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 19 11:02:34 AM  ==> Checking out commit a21276f513707a0461cdda9b0c6c29b09947f636 in branch main
+Aug 19 11:02:38 AM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 19 11:02:38 AM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 19 11:02:40 AM  ==> Running build command 'npm install'...
+Aug 19 11:06:08 AM  ==> Uploading build...
+Aug 19 11:06:03 AM  
+Aug 19 11:06:03 AM  added 2606 packages, and audited 2607 packages in 3m
+Aug 19 11:06:03 AM  
+Aug 19 11:06:03 AM  303 packages are looking for funding
+Aug 19 11:06:03 AM    run `npm fund` for details
+Aug 19 11:06:07 AM  
+Aug 19 11:06:07 AM  107 vulnerabilities (1 low, 54 moderate, 47 high, 5 critical)
+Aug 19 11:06:07 AM  
+Aug 19 11:06:07 AM  To address issues that do not require attention, run:
+Aug 19 11:06:07 AM    npm audit fix
+Aug 19 11:06:07 AM  
+Aug 19 11:06:07 AM  To address all issues (including breaking changes), run:
+Aug 19 11:06:07 AM    npm audit fix --force
+Aug 19 11:06:07 AM  
+Aug 19 11:06:07 AM  Run `npm audit` for details.
+Aug 19 11:06:22 AM  ==> Build uploaded in 10s
+Aug 19 11:06:22 AM  ==> Build successful 🎉
+Aug 19 11:06:22 AM  ==> Deploying...
+Aug 19 11:06:48 AM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 19 11:06:48 AM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 19 11:06:48 AM  ==> Starting service with 'yarn start'
+Aug 19 11:06:50 AM  yarn run v1.22.5
+Aug 19 11:06:50 AM  $ npm run develop
+Aug 19 11:06:52 AM  
+Aug 19 11:06:52 AM  > gatsby-starter-default@0.1.0 develop
+Aug 19 11:06:52 AM  > gatsby develop
+Aug 19 11:06:52 AM  
+Aug 19 11:07:20 AM  /opt/render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.j
+Aug 19 11:07:20 AM  s:52
+Aug 19 11:07:20 AM  var remarkMdx = require('remark-mdx');
+Aug 19 11:07:20 AM                  ^
+Aug 19 11:07:20 AM  
+Aug 19 11:07:20 AM  Error [ERR_REQUIRE_ESM]: require() of ES Module
+Aug 19 11:07:20 AM  /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/render/projec
+Aug 19 11:07:20 AM  t/src/node_modules/gatsby-recipes/dist/graphql-server/server.js not supported.
+Aug 19 11:07:20 AM  Instead change the require of index.js in /opt/render/project/src/node_modules/g
+Aug 19 11:07:20 AM  atsby-recipes/dist/graphql-server/server.js to a dynamic import() which is
+Aug 19 11:07:20 AM  available in all CommonJS modules.
+Aug 19 11:07:20 AM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 19 11:07:20 AM  ist/graphql-server/server.js:52:17) {
+Aug 19 11:07:20 AM    code: 'ERR_REQUIRE_ESM'
+Aug 19 11:07:20 AM  }
+Aug 19 11:07:20 AM  
+Aug 19 11:07:20 AM  Node.js v18.17.0
+Aug 19 11:07:20 AM  
+Aug 19 11:07:20 AM  
+Aug 19 11:07:29 AM  success open and validate gatsby-configs - 0.300s
+success load plugins - 7.003s
+success onPreInit - 0.199s
+success delete html and css files from previous builds - 0.088s
+success initialize cache - 0.007s
+success copy gatsby files - 0.202s
+success onPreBootstrap - 0.095s
+success createSchemaCustomization - 0.295s
+success Checking for changed pages - 0.000s
+success source and transform nodes - 0.610s
+success building schema - 2.801s
+info Total nodes: 56, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.399s
+success Checking for changed pages - 0.000s
+success createPagesStatefully - 0.402s
+success update schema - 0.193s
+success write out redirect data - 0.012s
+success Build manifest and related icons - 1.244s
+success onPostBootstrap - 1.247s
+info bootstrap finished - 41.261s
+success onPreExtractQueries - 0.001s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+Aug 19 11:07:46 AM  v3.
+Aug 19 11:07:46 AM  Import it instead like:  import { graphql } from 'gatsby' in file:
+Aug 19 11:07:46 AM  /opt/render/project/src/src/pages/index.js
+success extract queries from components - 3.736s
+success write out requires - 0.042s
+success run static queries - 0.205s - 2/2 9.77/s
+success run page queries - 0.197s - 2/2 10.15/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+Aug 19 11:07:53 AM  `isImportOrExportDeclaration`
+Aug 19 11:07:53 AM      at isModuleDeclaration (/opt/render/project/src/node_modules/@babel/types/li
+Aug 19 11:07:53 AM  b/validators/generated/index.js:2740:35)
+Aug 19 11:07:53 AM      at PluginPass.Program
+Aug 19 11:07:53 AM  (/opt/render/project/src/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+
+Aug 19 11:07:54 AM   ERROR
+Aug 19 11:07:54 AM  
+Aug 19 11:07:54 AM  error:0308010C:digital envelope routines::unsupported
+Aug 19 11:07:54 AM  
+
+Aug 19 11:07:54 AM  
+Aug 19 11:07:54 AM    Error: error:0308010C:digital envelope routines::unsupported
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - hash:69 new Hash
+Aug 19 11:07:54 AM      node:internal/crypto/hash:69:19
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - node:crypto:133 Object.createHash
+Aug 19 11:07:54 AM      node:crypto:133:10
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - createHash.js:135 module.exports
+Aug 19 11:07:54 AM      [src]/[webpack]/lib/util/createHash.js:135:53
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - NormalModule.js:417 NormalModule._initBuildHash
+Aug 19 11:07:54 AM      [src]/[webpack]/lib/NormalModule.js:417:16
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - NormalModule.js:471 handleParseError
+Aug 19 11:07:54 AM      [src]/[webpack]/lib/NormalModule.js:471:10
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - NormalModule.js:503 
+Aug 19 11:07:54 AM      [src]/[webpack]/lib/NormalModule.js:503:5
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - NormalModule.js:358 
+Aug 19 11:07:54 AM      [src]/[webpack]/lib/NormalModule.js:358:12
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - LoaderRunner.js:373 
+Aug 19 11:07:54 AM      [src]/[loader-runner]/lib/LoaderRunner.js:373:3
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - LoaderRunner.js:214 iterateNormalLoaders
+Aug 19 11:07:54 AM      [src]/[loader-runner]/lib/LoaderRunner.js:214:10
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - LoaderRunner.js:221 iterateNormalLoaders
+Aug 19 11:07:54 AM      [src]/[loader-runner]/lib/LoaderRunner.js:221:10
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - LoaderRunner.js:236 
+Aug 19 11:07:54 AM      [src]/[loader-runner]/lib/LoaderRunner.js:236:3
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - LoaderRunner.js:111 context.callback
+Aug 19 11:07:54 AM      [src]/[loader-runner]/lib/LoaderRunner.js:111:13
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM    - index.js:44 
+Aug 19 11:07:54 AM      [src]/[babel-loader]/lib/index.js:44:71
+Aug 19 11:07:54 AM    
+Aug 19 11:07:54 AM  
+not finished Building development bundle - 5.496s
+Aug 19 11:07:54 AM  
+Aug 19 11:07:56 AM  error Command failed with exit code 1.
+Aug 19 11:07:56 AM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Aug 19 11:08:00 AM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 19 11:08:00 AM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 19 11:08:00 AM  ==> Starting service with 'yarn start'
+Aug 19 11:08:01 AM  yarn run v1.22.5
+Aug 19 11:08:01 AM  $ npm run develop
+Aug 19 11:08:03 AM  
+Aug 19 11:08:03 AM  > gatsby-starter-default@0.1.0 develop
+Aug 19 11:08:03 AM  > gatsby develop
+Aug 19 11:08:03 AM  
+Aug 19 11:08:29 AM  /opt/render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.j
+Aug 19 11:08:29 AM  s:52
+Aug 19 11:08:29 AM  var remarkMdx = require('remark-mdx');
+Aug 19 11:08:29 AM                  ^
+Aug 19 11:08:29 AM  
+Aug 19 11:08:29 AM  Error [ERR_REQUIRE_ESM]: require() of ES Module
+Aug 19 11:08:29 AM  /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/render/projec
+Aug 19 11:08:29 AM  t/src/node_modules/gatsby-recipes/dist/graphql-server/server.js not supported.
+Aug 19 11:08:29 AM  Instead change the require of index.js in /opt/render/project/src/node_modules/g
+Aug 19 11:08:29 AM  atsby-recipes/dist/graphql-server/server.js to a dynamic import() which is
+Aug 19 11:08:29 AM  available in all CommonJS modules.
+Aug 19 11:08:29 AM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 19 11:08:29 AM  ist/graphql-server/server.js:52:17) {
+Aug 19 11:08:29 AM    code: 'ERR_REQUIRE_ESM'
+Aug 19 11:08:29 AM  }
+Aug 19 11:08:29 AM  
+Aug 19 11:08:29 AM  Node.js v18.17.0
+Aug 19 11:08:29 AM  
+Aug 19 11:08:29 AM  
+Aug 19 11:08:39 AM  success open and validate gatsby-configs - 0.213s
+success load plugins - 7.399s
+success onPreInit - 0.199s
+success delete html and css files from previous builds - 0.093s
+success initialize cache - 0.099s
+success copy gatsby files - 0.305s
+success onPreBootstrap - 0.089s
+success createSchemaCustomization - 0.501s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.797s
+success building schema - 2.803s
+info Total nodes: 56, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.305s
+success Checking for changed pages - 0.000s
+success createPagesStatefully - 0.596s
+success update schema - 0.198s
+success write out redirect data - 0.001s
+success Build manifest and related icons - 1.298s
+success onPostBootstrap - 1.302s
+info bootstrap finished - 41.505s
+success onPreExtractQueries - 0.001s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+Aug 19 11:08:58 AM  v3.
+Aug 19 11:08:58 AM  Import it instead like:  import { graphql } from 'gatsby' in file:
+Aug 19 11:08:58 AM  /opt/render/project/src/src/pages/index.js
+success extract queries from components - 3.798s
+success write out requires - 0.003s
+success run static queries - 0.047s - 2/2 42.86/s
+success run page queries - 0.202s - 2/2 9.89/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+Aug 19 11:09:05 AM  `isImportOrExportDeclaration`
+Aug 19 11:09:05 AM      at isModuleDeclaration (/opt/render/project/src/node_modules/@babel/types/li
+Aug 19 11:09:05 AM  b/validators/generated/index.js:2740:35)
+Aug 19 11:09:05 AM      at PluginPass.Program
+Aug 19 11:09:05 AM  (/opt/render/project/src/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+
+Aug 19 11:09:05 AM   ERROR
+Aug 19 11:09:05 AM  
+Aug 19 11:09:05 AM  error:0308010C:digital envelope routines::unsupported
+Aug 19 11:09:05 AM  
+
+Aug 19 11:09:06 AM  
+Aug 19 11:09:06 AM    Error: error:0308010C:digital envelope routines::unsupported
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - hash:69 new Hash
+Aug 19 11:09:06 AM      node:internal/crypto/hash:69:19
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - node:crypto:133 Object.createHash
+Aug 19 11:09:06 AM      node:crypto:133:10
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - createHash.js:135 module.exports
+Aug 19 11:09:06 AM      [src]/[webpack]/lib/util/createHash.js:135:53
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - NormalModule.js:417 NormalModule._initBuildHash
+Aug 19 11:09:06 AM      [src]/[webpack]/lib/NormalModule.js:417:16
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - NormalModule.js:471 handleParseError
+Aug 19 11:09:06 AM      [src]/[webpack]/lib/NormalModule.js:471:10
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - NormalModule.js:503 
+Aug 19 11:09:06 AM      [src]/[webpack]/lib/NormalModule.js:503:5
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - NormalModule.js:358 
+Aug 19 11:09:06 AM      [src]/[webpack]/lib/NormalModule.js:358:12
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - LoaderRunner.js:373 
+Aug 19 11:09:06 AM      [src]/[loader-runner]/lib/LoaderRunner.js:373:3
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - LoaderRunner.js:214 iterateNormalLoaders
+Aug 19 11:09:06 AM      [src]/[loader-runner]/lib/LoaderRunner.js:214:10
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - LoaderRunner.js:221 iterateNormalLoaders
+Aug 19 11:09:06 AM      [src]/[loader-runner]/lib/LoaderRunner.js:221:10
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - LoaderRunner.js:236 
+Aug 19 11:09:06 AM      [src]/[loader-runner]/lib/LoaderRunner.js:236:3
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - LoaderRunner.js:111 context.callback
+Aug 19 11:09:06 AM      [src]/[loader-runner]/lib/LoaderRunner.js:111:13
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM    - index.js:44 
+Aug 19 11:09:06 AM      [src]/[babel-loader]/lib/index.js:44:71
+Aug 19 11:09:06 AM    
+Aug 19 11:09:06 AM  
+not finished Building development bundle - 6.190s
+Aug 19 11:09:06 AM  
+Aug 19 11:09:07 AM  error Command failed with exit code 1.
+Aug 19 11:09:07 AM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+

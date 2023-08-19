@@ -1,0 +1,77 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>set NODE_OPTIONS=--openssl-legacy-provider
+
+C:\Windows\system32>cd C:\Users\88\Desktop\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog-comments-step4_e>set NODE_OPTIONS=--openssl-legacy-prov
+ider
+
+C:\Users\88\Desktop\blog-comments-step4_e>gatsby develop
+success open and validate gatsby-configs - 0.127s
+success load plugins - 2.141s
+success onPreInit - 0.066s
+success initialize cache - 0.083s
+success copy gatsby files - 0.239s
+success onPreBootstrap - 0.032s
+success createSchemaCustomization - 0.026s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.260s
+success building schema - 0.537s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.073s
+success Checking for changed pages - 0.002s
+success createPagesStatefully - 0.099s
+success update schema - 0.029s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.148s
+success onPostBootstrap - 0.158s
+info bootstrap finished - 10.424s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 1.247s
+success write out requires - 0.072s
+success run static queries - 0.029s - 2/2 68.06/s
+success run page queries - 0.075s - 3/3 39.93/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+`isImportOrExportDeclaration`
+    at isModuleDeclaration (C:\Users\88\Desktop\blog-comments-step4_e\node_modul
+
+es\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (C:\Users\88\Desktop\blog-comments-step4_e\node_module
+
+s\babel-plugin-lodash\lib\index.js:102:44)
+info
+Hi from the Gatsby maintainers! Based on what we see in your site, these coming
+features may help you. All of these can be enabled within gatsby-config.js via
+flags (samples below)
+
+Preserve webpack's Cache (https://github.com/gatsbyjs/gatsby/discussions/28331),
+
+ which changes Gatsby's cache clearing behavior to not clear webpack's
+cache unless you run "gatsby clean" or delete the .cache folder manually.
+Here's how to try it:
+
+module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
+  plugins: [...]
+}
+
+⠀
+You can now view gatsby-starter-default in the browser.
+⠀
+  http://localhost:8000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and schema
+⠀
+  http://localhost:8000/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use gatsby build
+⠀
+success Building development bundle - 31.152s
+

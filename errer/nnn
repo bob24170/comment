@@ -342,3 +342,33 @@ Aug 19 11:09:06 AM
 Aug 19 11:09:07 AM  error Command failed with exit code 1.
 Aug 19 11:09:07 AM  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 
+
+
+
+
+
+
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>firebase deploy
+
+Error: Not in a Firebase app directory (could not locate firebase.json)
+
+   ╭─────────────────────────────────────
+───────────────────────────────╮
+   │                                                                    │
+   │                  Update available 12.4.7 → 12.4.8                  │
+   │           To update to the latest version using npm, run           │
+   │                   npm install -g firebase-tools                    │
+   │   For other CLI management options, visit the CLI documentation    │
+   │         (https://firebase.google.com/docs/cli#update-cli)          │
+   │                                                                    │
+   │                                                                    │
+   │                                                                    │
+   ╰─────────────────────────────────────
+───────────────────────────────╯
+
+
+C:\Windows\system32>

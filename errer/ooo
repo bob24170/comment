@@ -1,4 +1,4 @@
-must run cmd admin +
+must run cmd +
 set NODE_OPTIONS=--openssl-legacy-provider
 
 

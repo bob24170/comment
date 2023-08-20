@@ -18,8 +18,7 @@ C:\Windows\system32>set NODE_OPTIONS=--openssl-legacy-provider
 
 C:\Windows\system32>cd C:\Users\88\Desktop\blog-comments-step4_e
 
-C:\Users\88\Desktop\blog-comments-step4_e>set NODE_OPTIONS=--openssl-legacy-prov
-ider
+C:\Users\88\Desktop\blog-comments-step4_e>set NODE_OPTIONS=--openssl-legacy-provider
 
 C:\Users\88\Desktop\blog-comments-step4_e>gatsby develop
 success open and validate gatsby-configs - 0.127s

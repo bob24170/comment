@@ -1,3 +1,14 @@
+must run cmd admin +
+set NODE_OPTIONS=--openssl-legacy-provider
+
+
+
+
+
+
+
+
+
 cmd with vpn
 Microsoft Windows [Version 6.3.9600]
 (c) 2013 Microsoft Corporation. All rights reserved.
@@ -310,5 +321,122 @@ Note that the development build is not optimized.
 To create a production build, use gatsby build
 ⠀
 success Building development bundle - 19.469s
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog-comments-step4_e
+PS C:\Users\88\Desktop\blog-comments-step4_e> set NODE_OPTIONS=--openssl-legacy-prov
+PS C:\Users\88\Desktop\blog-comments-step4_e> ider
+ider : The term 'ider' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ider
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (ider:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> set NODE_OPTIONS=--openssl-legacy-prov
+PS C:\Users\88\Desktop\blog-comments-step4_e> ider
+ider : The term 'ider' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ider
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (ider:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> set NODE_OPTIONS=--openssl-legacy-provider
+PS C:\Users\88\Desktop\blog-comments-step4_e> gatsby develop
+success open and validate gatsby-configs - 0.127s
+success load plugins - 2.214s
+success onPreInit - 0.055s
+success initialize cache - 0.012s
+success copy gatsby files - 0.245s
+success onPreBootstrap - 0.039s
+success createSchemaCustomization - 0.025s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.178s
+success building schema - 0.416s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.051s
+success Checking for changed pages - 0.002s
+success createPagesStatefully - 0.100s
+success update schema - 0.030s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.119s
+success onPostBootstrap - 0.130s
+info bootstrap finished - 8.736s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.586s
+success write out requires - 0.023s
+success run page queries - 0.023s - 1/1 44.15/s
+
+ ERROR
+
+error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+  - task_queues:95 processTicksAndRejections
+    node:internal/process/task_queues:95:5
+
+
+not finished Building development bundle - 1.069s
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>
 
 

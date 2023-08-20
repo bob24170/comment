@@ -1,0 +1,90 @@
+cmd with vpn
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\88>cd C:\Users\88\Desktop\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog-comments-step4_e>gatsby develop
+success open and validate gatsby-configs - 0.119s
+success load plugins - 9.174s
+success onPreInit - 0.118s
+success initialize cache - 0.014s
+success copy gatsby files - 0.978s
+success onPreBootstrap - 0.091s
+success createSchemaCustomization - 0.018s
+success Checking for changed pages - 0.002s
+success source and transform nodes - 0.140s
+success building schema - 0.382s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.041s
+success Checking for changed pages - 0.002s
+success createPagesStatefully - 0.125s
+success update schema - 0.026s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.204s
+success onPostBootstrap - 0.217s
+info bootstrap finished - 32.067s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.930s
+success write out requires - 0.098s
+success run page queries - 0.028s - 1/1 35.79/s
+
+ ERROR
+
+error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+  - task_queues:95 processTicksAndRejections
+    node:internal/process/task_queues:95:5
+
+
+not finished Building development bundle - 4.700s
+
+
+C:\Users\88\Desktop\blog-comments-step4_e>

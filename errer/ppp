@@ -151,4 +151,63 @@ Total 34 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/bob24170/comment3.git
  * [new branch]      master -> master
+PS C:\Users\88\Desktop\blog-comments-step4_e> git --log --graph
+unknown option: --log
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+PS C:\Users\88\Desktop\blog-comments-step4_e> git log --all --graph
+* commit b7dc2d92ac373e5f98a80637a2c5b0ec361939cf (HEAD -> master, origin/master)
+  Author: bob24170 <1476661867@qq.com>
+  Date:   Tue Aug 22 21:31:53 2023 +0800
+
+      initial commit
+PS C:\Users\88\Desktop\blog-comments-step4_e> git add .
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\88\Desktop\blog-comments-step4_e> git commit -m "Version 0.0.0"
+[master cf83fa8] Version 0.0.0
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\88\Desktop\blog-comments-step4_e> git log --all --graph
+* commit cf83fa8851c591a03a477cb79c1e97b31677fa4e (HEAD -> master)
+| Author: bob24170 <1476661867@qq.com>
+| Date:   Tue Aug 22 21:45:44 2023 +0800
+|
+|     Version 0.0.0
+|
+* commit b7dc2d92ac373e5f98a80637a2c5b0ec361939cf (origin/master)
+  Author: bob24170 <1476661867@qq.com>
+  Date:   Tue Aug 22 21:31:53 2023 +0800
+
+      initial commit
+PS C:\Users\88\Desktop\blog-comments-step4_e> git push master origin
+error: src refspec origin does not match any
+error: failed to push some refs to 'master'
+PS C:\Users\88\Desktop\blog-comments-step4_e> git commit -m "Version 0.0.0"
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\88\Desktop\blog-comments-step4_e> git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 330 bytes | 330.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/bob24170/comment3.git
+   b7dc2d9..cf83fa8  master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\88\Desktop\blog-comments-step4_e> git log --all --graph
+* commit cf83fa8851c591a03a477cb79c1e97b31677fa4e (HEAD -> master, origin/master)
+| Author: bob24170 <1476661867@qq.com>
+| Date:   Tue Aug 22 21:45:44 2023 +0800
+|
+|     Version 0.0.0
+|
+* commit b7dc2d92ac373e5f98a80637a2c5b0ec361939cf
+  Author: bob24170 <1476661867@qq.com>
+  Date:   Tue Aug 22 21:31:53 2023 +0800
+
+      initial commit
 PS C:\Users\88\Desktop\blog-comments-step4_e>

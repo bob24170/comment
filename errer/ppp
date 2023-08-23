@@ -67,6 +67,137 @@ View GraphiQL, an in-browser IDE, to explore your site's data and schema
 ⠀
   http://localhost:8000/___graphql
 ⠀
+
+
+
+
+
+
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Users\88\Desktop\blog2\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>npm i -D -save npm-run-all
+
+up to date, audited 2625 packages in 2m
+
+304 packages are looking for funding
+  run `npm fund` for details
+
+107 vulnerabilities (1 low, 54 moderate, 47 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>gatsby develop
+success open and validate gatsby-configs - 0.168s
+success load plugins - 7.758s
+success onPreInit - 0.141s
+info One or more of your plugins have changed since the last time you ran
+Gatsby. As
+a precaution, we're deleting your site's cache to ensure there's no stale data.
+success initialize cache - 0.120s
+success copy gatsby files - 0.533s
+success onPreBootstrap - 0.061s
+success createSchemaCustomization - 0.020s
+success Checking for changed pages - 0.002s
+success source and transform nodes - 0.236s
+success building schema - 0.465s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.045s
+success Checking for changed pages - 0.002s
+success createPagesStatefully - 0.294s
+success update schema - 0.040s
+success write out redirect data - 0.005s
+success Build manifest and related icons - 0.173s
+success onPostBootstrap - 0.182s
+info bootstrap finished - 25.229s
+success onPreExtractQueries - 0.002s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog2/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.864s
+success write out requires - 0.023s
+success run static queries - 0.031s - 2/2 63.91/s
+success run page queries - 0.057s - 3/3 52.51/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+`isImportOrExportDeclaration`
+    at isModuleDeclaration (C:\Users\88\Desktop\blog2\blog-comments-step4_e\node
+
+_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (C:\Users\88\Desktop\blog2\blog-comments-step4_e\node_
+
+modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building development bundle - 4.061s
+
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>all
+'all' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>npm-run-all --serial set develop
+
+'npm-run-all' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>
 Note that the development build is not optimized.
 To create a production build, use gatsby build
 ⠀

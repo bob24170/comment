@@ -218,3 +218,148 @@ Aug 23 10:18:48 PM  ==> Running build command 'develop'...
 Aug 23 10:18:48 PM  bash: develop: command not found
 Aug 23 10:18:48 PM  ==> Build failed 😞
 
+
+
+
+
+
+
+
+
+Aug 23 10:23:58 PM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 23 10:23:59 PM  ==> Checking out commit 85995aa84b84d629b1a42b57be24a314d0787628 in branch main
+Aug 23 10:24:03 PM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 23 10:24:03 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 23 10:24:04 PM  ==> Running build command 'npm install'...
+Aug 23 10:27:29 PM  
+Aug 23 10:27:29 PM  added 2606 packages, and audited 2607 packages in 3m
+Aug 23 10:27:29 PM  
+Aug 23 10:27:29 PM  303 packages are looking for funding
+Aug 23 10:27:29 PM    run `npm fund` for details
+Aug 23 10:27:33 PM  
+Aug 23 10:27:33 PM  107 vulnerabilities (1 low, 54 moderate, 47 high, 5 critical)
+Aug 23 10:27:33 PM  
+Aug 23 10:27:33 PM  To address issues that do not require attention, run:
+Aug 23 10:27:33 PM    npm audit fix
+Aug 23 10:27:33 PM  
+Aug 23 10:27:33 PM  To address all issues (including breaking changes), run:
+Aug 23 10:27:33 PM    npm audit fix --force
+Aug 23 10:27:33 PM  
+Aug 23 10:27:33 PM  Run `npm audit` for details.
+Aug 23 10:27:34 PM  ==> Uploading build...
+Aug 23 10:27:48 PM  ==> Build uploaded in 10s
+Aug 23 10:27:48 PM  ==> Build successful 🎉
+Aug 23 10:27:48 PM  ==> Deploying...
+Aug 23 10:28:37 PM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 23 10:28:37 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 23 10:28:37 PM  ==> Starting service with 'set NODE_OPTIONS=--openssl-legacy-provider && gatsby develop'
+Aug 23 10:29:07 PM  /opt/render/project/src/node_modules/gatsby-recipes/dist/graphql-server/server.j
+Aug 23 10:29:07 PM  s:52
+Aug 23 10:29:07 PM  var remarkMdx = require('remark-mdx');
+Aug 23 10:29:07 PM                  ^
+Aug 23 10:29:07 PM  
+Aug 23 10:29:07 PM  Error [ERR_REQUIRE_ESM]: require() of ES Module
+Aug 23 10:29:07 PM  /opt/render/project/src/node_modules/remark-mdx/index.js from /opt/render/projec
+Aug 23 10:29:07 PM  t/src/node_modules/gatsby-recipes/dist/graphql-server/server.js not supported.
+Aug 23 10:29:07 PM  Instead change the require of index.js in /opt/render/project/src/node_modules/g
+Aug 23 10:29:07 PM  atsby-recipes/dist/graphql-server/server.js to a dynamic import() which is
+Aug 23 10:29:07 PM  available in all CommonJS modules.
+Aug 23 10:29:07 PM      at Object.<anonymous> (/opt/render/project/src/node_modules/gatsby-recipes/d
+Aug 23 10:29:07 PM  ist/graphql-server/server.js:52:17) {
+Aug 23 10:29:07 PM    code: 'ERR_REQUIRE_ESM'
+Aug 23 10:29:07 PM  }
+Aug 23 10:29:07 PM  
+
+Aug 23 10:29:07 PM  Node.js v18.17.0
+Aug 23 10:29:07 PM  
+Aug 23 10:29:07 PM  
+Aug 23 10:29:19 PM  success open and validate gatsby-configs - 0.388s
+success load plugins - 6.801s
+success onPreInit - 0.291s
+success delete html and css files from previous builds - 0.003s
+success initialize cache - 0.096s
+success copy gatsby files - 0.296s
+success onPreBootstrap - 0.100s
+success createSchemaCustomization - 0.106s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.907s
+success building schema - 3.108s
+info Total nodes: 56, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.401s
+success Checking for changed pages - 0.000s
+success createPagesStatefully - 0.694s
+success update schema - 0.198s
+success write out redirect data - 0.001s
+success Build manifest and related icons - 1.206s
+success onPostBootstrap - 1.210s
+info bootstrap finished - 45.399s
+success onPreExtractQueries - 0.001s
+warn Using the global `graphql` tag is deprecated, and will not be supported in
+Aug 23 10:29:37 PM  v3.
+Aug 23 10:29:37 PM  Import it instead like:  import { graphql } from 'gatsby' in file:
+Aug 23 10:29:37 PM  /opt/render/project/src/src/pages/index.js
+success extract queries from components - 3.499s
+success write out requires - 0.003s
+success run static queries - 0.047s - 2/2 42.52/s
+success run page queries - 0.401s - 2/2 4.99/s
+warn `isModuleDeclaration` has been deprecated, please migrate to
+Aug 23 10:29:45 PM  `isImportOrExportDeclaration`
+Aug 23 10:29:45 PM      at isModuleDeclaration (/opt/render/project/src/node_modules/@babel/types/li
+Aug 23 10:29:45 PM  b/validators/generated/index.js:2740:35)
+Aug 23 10:29:45 PM      at PluginPass.Program
+Aug 23 10:29:45 PM  (/opt/render/project/src/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+
+Aug 23 10:29:45 PM   ERROR
+Aug 23 10:29:45 PM  
+Aug 23 10:29:45 PM  error:0308010C:digital envelope routines::unsupported
+Aug 23 10:29:45 PM  
+
+Aug 23 10:29:46 PM  
+Aug 23 10:29:46 PM    Error: error:0308010C:digital envelope routines::unsupported
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - hash:69 new Hash
+Aug 23 10:29:46 PM      node:internal/crypto/hash:69:19
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - node:crypto:133 Object.createHash
+Aug 23 10:29:46 PM      node:crypto:133:10
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - createHash.js:135 module.exports
+Aug 23 10:29:46 PM      [src]/[webpack]/lib/util/createHash.js:135:53
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - NormalModule.js:417 NormalModule._initBuildHash
+Aug 23 10:29:46 PM      [src]/[webpack]/lib/NormalModule.js:417:16
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - NormalModule.js:471 handleParseError
+Aug 23 10:29:46 PM      [src]/[webpack]/lib/NormalModule.js:471:10
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - NormalModule.js:503 
+Aug 23 10:29:46 PM      [src]/[webpack]/lib/NormalModule.js:503:5
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - NormalModule.js:358 
+Aug 23 10:29:46 PM      [src]/[webpack]/lib/NormalModule.js:358:12
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - LoaderRunner.js:373 
+Aug 23 10:29:46 PM      [src]/[loader-runner]/lib/LoaderRunner.js:373:3
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - LoaderRunner.js:214 iterateNormalLoaders
+Aug 23 10:29:46 PM      [src]/[loader-runner]/lib/LoaderRunner.js:214:10
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - LoaderRunner.js:221 iterateNormalLoaders
+Aug 23 10:29:46 PM      [src]/[loader-runner]/lib/LoaderRunner.js:221:10
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - LoaderRunner.js:236 
+Aug 23 10:29:46 PM      [src]/[loader-runner]/lib/LoaderRunner.js:236:3
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - LoaderRunner.js:111 context.callback
+Aug 23 10:29:46 PM      [src]/[loader-runner]/lib/LoaderRunner.js:111:13
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM    - index.js:44 
+Aug 23 10:29:46 PM      [src]/[babel-loader]/lib/index.js:44:71
+Aug 23 10:29:46 PM    
+Aug 23 10:29:46 PM  
+not finished Building development bundle - 6.692s
+Aug 23 10:29:46 PM  
+Aug 23 10:29:52 PM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 23 10:29:52 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 23 10:29:52 PM  ==> Starting service with 'set NODE_OPTIONS=--openssl-legacy-provider && gatsby develop'
+

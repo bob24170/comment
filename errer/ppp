@@ -203,3 +203,18 @@ To create a production build, use gatsby build
 ⠀
 success Building development bundle - 30.919s
 
+
+
+
+
+
+
+
+Aug 23 10:18:42 PM  ==> Cloning from https://github.com/bob24170/comment...
+Aug 23 10:18:42 PM  ==> Checking out commit 57d48ecfef0d19f6f53eb3fca99d48ff7d842cda in branch main
+Aug 23 10:18:46 PM  ==> Using Node version 18.17.0 via /opt/render/project/src/.node-version
+Aug 23 10:18:46 PM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Aug 23 10:18:48 PM  ==> Running build command 'develop'...
+Aug 23 10:18:48 PM  bash: develop: command not found
+Aug 23 10:18:48 PM  ==> Build failed 😞
+

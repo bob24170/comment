@@ -1,0 +1,14 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Users\88\Desktop\blog2\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>firebase init
+
+C:\Users\88\Desktop\blog2\blog-comments-step4_e>
+[0826/202819.084:ERROR:trace_logging_minimal_win.cc(80)] Provider resistration f
+ailure
+[0826/202820.108:ERROR:trace_logging_minimal_win.cc(80)] Provider resistration f
+ailure
+[6972:0826/202820.157:ERROR:broker_win.cc(56)] Error reading broker pipe: The pi
+pe has been ended. (0x6D)

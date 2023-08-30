@@ -1,4 +1,4 @@
-must run cmd +
+gatsby develop must run in cmd +  
 set NODE_OPTIONS=--openssl-legacy-provider
 
 

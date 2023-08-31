@@ -1,0 +1,152 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog-comments-step4_e
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase login --reauth
+
+Visit this URL on this device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent
+.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww
+.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=41
+9872078&redirect_uri=http%3A%2F%2Flocalhost%3A9005&login_hint=aaa2417002%40gmail.com
+
+Waiting for authentication...
+
++  Success! Logged in as aaa2417002@gmail.com
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog-comments-step4_e
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+
+Error: Failed to get Firebase project comment-66100. Please make sure the project exists and your account has permission
+ to access it.
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog-comments-step4_e
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+i  Using project comment-66100 (comment)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? * dist/{blog-comments-step4_e}
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
+
+Error: An unexpected error has occurred.
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog-comments-step4_e
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+i  Using project comment-66100 (comment)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? * dist/{blog-comments-step4_e}
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? Yes
+
+Error: An unexpected error has occurred.
+
+Having trouble? Try again or contact support with contents of firebase-debug.log
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog-comments-step4_e
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. (Press <space> to select, <a> to toggle all, <i> to invert selection, and <enter> to proceed)
+instance
+ ( ) Firestore: Configure security rules and indexes files for Firestore
+ ( ) Functions: Configure a Cloud Functions directory and its files
+>( ) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+ ( ) Hosting: Set up GitHub Action deploys
+ ( ) Storage: Configure a security rules file for Cloud Storage
+ ( ) Emulators: Set up local emulators for Firebase products
+(Move up and down to reveal more choices)

@@ -157,3 +157,465 @@ i  hosting[comment-66100]: releasing new version...
 Project Console: https://console.firebase.google.com/project/comment-66100/overview
 Hosting URL: https://comment-66100.web.app
 PS C:\Users\88\Desktop\blog2>
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog2
+PS C:\Users\88\Desktop\blog2> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog2
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: comment-66100 (comment)
+i  Using project comment-66100 (comment)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? blog2
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
++  Wrote blog2/404.html
++  Wrote blog2/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+PS C:\Users\88\Desktop\blog2> firebase deploy --only hosting
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 2 files in blog2
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog2> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 2 files in blog2
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog2> Run ng build --prod
+Run : The term 'Run' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Run ng build --prod
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Run:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\88\Desktop\blog2>  ng build --prod
+ng : The term 'ng' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  ng build --prod
++  ~~
+    + CategoryInfo          : ObjectNotFound: (ng:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\88\Desktop\blog2> ng build --prod
+ng : The term 'ng' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ng build --prod
++ ~~
+    + CategoryInfo          : ObjectNotFound: (ng:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\88\Desktop\blog2> gatsby develop
+success open and validate gatsby-configs - 0.174s
+success load plugins - 6.157s
+success onPreInit - 0.113s
+info We've detected that the Gatsby cache is incomplete (the .cache directory exists
+but the public directory does not). As a precaution, we're deleting your site's
+cache to ensure there's no stale data.
+success initialize cache - 0.092s
+success copy gatsby files - 0.455s
+success onPreBootstrap - 0.091s
+success createSchemaCustomization - 0.019s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.177s
+success building schema - 0.424s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.046s
+success Checking for changed pages - 0.004s
+success createPagesStatefully - 0.092s
+success update schema - 0.030s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.166s
+success onPostBootstrap - 0.178s
+info bootstrap finished - 22.481s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog2/src/pages/index.js
+success extract queries from components - 0.713s
+success write out requires - 0.059s
+success run static queries - 0.033s - 2/2 59.92/s
+success run page queries - 0.052s - 3/3 57.63/s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog2\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (C:\Users\88\Desktop\blog2\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog2]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog2]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog2]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog2]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog2]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog2]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building development bundle - 3.915s
+
+PS C:\Users\88\Desktop\blog2> gatsby build
+success open and validate gatsby-configs - 0.107s
+success load plugins - 1.854s
+success onPreInit - 0.049s
+success delete html and css files from previous builds - 0.009s
+success initialize cache - 0.047s
+success copy gatsby files - 0.199s
+success onPreBootstrap - 0.032s
+success createSchemaCustomization - 0.015s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.178s
+success building schema - 0.526s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.049s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.090s
+success Cleaning up stale page-data - 0.004s
+success update schema - 0.023s
+success onPreExtractQueries - 0.002s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog2/src/pages/index.js
+success extract queries from components - 0.525s
+success write out redirect data - 0.003s
+success Build manifest and related icons - 0.117s
+success onPostBootstrap - 0.125s
+info bootstrap finished - 10.004s
+success run static queries - 0.023s - 2/2 88.38/s
+success run page queries - 0.071s - 5/5 70.15/s
+success write out requires - 0.007s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog2\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (C:\Users\88\Desktop\blog2\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+⠦ Building production JavaScript and CSS bundles
+C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\yoga-layout-prebuilt\yoga-layout\build\Release\nbin
+d.js:53
+        throw ex;
+        ^
+
+TypeError: state.messages is not iterable
+    at reducer (C:\Users\88\Desktop\blog2\node_modules\gatsby-cli\lib\reporter\redux\reducer.js:29:31)
+    at combination (C:\Users\88\Desktop\blog2\node_modules\redux\lib\redux.js:568:29)
+    at next (C:\Users\88\Desktop\blog2\node_modules\redux\lib\redux.js:296:22)
+    at C:\Users\88\Desktop\blog2\node_modules\gatsby\src\redux\index.ts:72:66
+    at Object.dispatch (C:\Users\88\Desktop\blog2\node_modules\redux-thunk\lib\index.js:14:16)
+    at dispatch (C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\lib\reporter\redux\index.js:39:9)
+    at Object.createLog (C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\redux\lib\redux.js:586:12)
+
+    at Reporter.error (C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\lib\reporter\reporter.js:164:23)
+    at Reporter.panic (C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\lib\reporter\reporter.js:89:32)
+    at process.<anonymous> (C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\lib\index.js:62:21)
+    at process.emit (node:events:526:35)
+    at processEmit (C:\Users\88\AppData\Roaming\npm\node_modules\gatsby-cli\node_modules\signal-exit\index.js:199:34)
+    at processEmit (C:\Users\88\Desktop\blog2\node_modules\signal-exit\index.js:161:32)
+    at process.emit (C:\Users\88\Desktop\blog2\node_modules\@turist\fetch\dist\sourcemap-register.js:1:7334)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:32)
+
+Node.js v18.17.0
+PS C:\Users\88\Desktop\blog2> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 2 files in blog2
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog2> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+success open and validate gatsby-configs - 0.114s
+success load plugins - 1.967s
+success onPreInit - 0.129s
+success delete html and css files from previous builds - 0.009s
+success initialize cache - 0.049s
+success copy gatsby files - 0.197s
+success onPreBootstrap - 0.031s
+success createSchemaCustomization - 0.016s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.208s
+success building schema - 0.537s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.054s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.101s
+success Cleaning up stale page-data - 0.003s
+success update schema - 0.029s
+success onPreExtractQueries - 0.002s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog2/src/pages/index.js
+success extract queries from components - 0.543s
+success write out redirect data - 0.012s
+success Build manifest and related icons - 0.122s
+success onPostBootstrap - 0.131s
+info bootstrap finished - 12.200s
+success run static queries - 0.024s - 2/2 84.08/s
+success run page queries - 0.085s - 5/5 58.83/s
+success write out requires - 0.009s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog2\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (C:\Users\88\Desktop\blog2\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+UNHANDLED REJECTION error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog2]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog2]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog2]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog2]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog2]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog2]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building production JavaScript and CSS bundles - 2.146s
+
+PS C:\Users\88\Desktop\blog2> set NODE_OPTIONS=--openssl-legacy-provider
+PS C:\Users\88\Desktop\blog2> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+success open and validate gatsby-configs - 0.119s
+success load plugins - 1.677s
+success onPreInit - 0.048s
+success delete html and css files from previous builds - 0.009s
+success initialize cache - 0.051s
+success copy gatsby files - 0.209s
+success onPreBootstrap - 0.030s
+success createSchemaCustomization - 0.015s
+success Checking for changed pages - 0.002s
+success source and transform nodes - 0.179s
+success building schema - 0.427s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.043s
+success Checking for changed pages - 0.003s
+success createPagesStatefully - 0.095s
+success Cleaning up stale page-data - 0.006s
+success update schema - 0.030s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog2/src/pages/index.js
+success extract queries from components - 0.582s
+success write out redirect data - 0.002s
+success Build manifest and related icons - 0.129s
+success onPostBootstrap - 0.137s
+info bootstrap finished - 9.691s
+success run static queries - 0.024s - 2/2 83.13/s
+success run page queries - 0.074s - 5/5 67.46/s
+success write out requires - 0.008s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog2\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (C:\Users\88\Desktop\blog2\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+UNHANDLED REJECTION error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog2]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog2]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog2]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog2]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog2]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog2]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog2]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building production JavaScript and CSS bundles - 2.004s
+
+PS C:\Users\88\Desktop\blog2>
+

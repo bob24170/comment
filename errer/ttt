@@ -83,3 +83,77 @@ Hosting URL: https://comment-66100.web.app
 ──────────────────────────────────────────────────────────╯
 
 PS C:\Users\88\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog2
+PS C:\Users\88\Desktop\blog2> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog2
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: comment-66100 (comment)
+i  Using project comment-66100 (comment)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? blog2
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
++  Wrote blog2/404.html
++  Wrote blog2/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+PS C:\Users\88\Desktop\blog2> firebase deploy --only hosting
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 2 files in blog2
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog2>

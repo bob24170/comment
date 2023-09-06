@@ -638,7 +638,7 @@ PS C:\Users\88\Desktop\blog-comments-step4_e>
 
 
 
-
+run on dad pc with npm run develop
 Windows PowerShell
 版权所有（C） Microsoft Corporation。保留所有权利。
 
@@ -960,6 +960,196 @@ success run page queries - 0.023s - 1/1 42.78/s
 
 
 
+
+
+
+
+run on my pc with npm run develop
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog-comments-step4_e
+PS C:\Users\88\Desktop\blog-comments-step4_e> set NODE_OPTIONS=--openssl-legacy-provider
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+success open and validate gatsby-configs - 49.378s
+success load plugins - 9.489s
+success onPreInit - 0.124s
+success delete html and css files from previous builds - 0.014s
+success initialize cache - 0.016s
+success copy gatsby files - 0.857s
+success onPreBootstrap - 0.122s
+success createSchemaCustomization - 0.021s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.196s
+success building schema - 0.653s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.054s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.102s
+success Cleaning up stale page-data - 0.008s
+success update schema - 0.027s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.666s
+success write out redirect data - 0.067s
+success Build manifest and related icons - 0.169s
+success onPostBootstrap - 0.199s
+info bootstrap finished - 92.906s
+success run static queries - 0.026s - 2/2 77.71/s
+success run page queries - 0.051s - 2/2 39.08/s
+success write out requires - 0.017s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+UNHANDLED REJECTION error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building production JavaScript and CSS bundles - 8.538s
+
+npm notice
+npm notice New major version of npm available! 9.6.7 -> 10.0.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.0.0
+npm notice Run npm install -g npm@10.0.0 to update!
+npm notice
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run develop
+
+> gatsby-starter-default@0.1.0 develop
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby develop
+
+
+Something is already running at port 8000
+
+
+ ERROR
+
+Looks like develop for this site is already running, can you visit http://localhost:8001 ? If it is not, try again in
+five seconds!
+
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run develop
+
+> gatsby-starter-default@0.1.0 develop
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby develop
+
+C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-recipes\dist\graphql-server\server.js:52
+var remarkMdx = require('remark-mdx');
+                ^
+
+Error [ERR_REQUIRE_ESM]: require() of ES Module
+C:\Users\88\Desktop\blog-comments-step4_e\node_modules\remark-mdx\index.js from
+C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-recipes\dist\graphql-server\server.js not supported.
+Instead change the require of index.js in
+C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-recipes\dist\graphql-server\server.js to a dynamic
+import() which is available in all CommonJS modules.
+    at Object.<anonymous>
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-recipes\dist\graphql-server\server.js:52:17) {
+  code: 'ERR_REQUIRE_ESM'
+}
+
+Node.js v18.17.0
+
+
+success open and validate gatsby-configs - 0.137s
+success load plugins - 5.126s
+success onPreInit - 0.053s
+info One or more of your plugins have changed since the last time you ran Gatsby. As
+a precaution, we're deleting your site's cache to ensure there's no stale data.
+success initialize cache - 0.104s
+success copy gatsby files - 0.200s
+success onPreBootstrap - 0.036s
+success createSchemaCustomization - 0.019s
+success Checking for changed pages - 0.005s
+success source and transform nodes - 0.198s
+success building schema - 0.655s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.046s
+success Checking for changed pages - 0.002s
+success createPagesStatefully - 0.099s
+success update schema - 0.034s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.115s
+success onPostBootstrap - 0.129s
+info bootstrap finished - 23.103s
+success onPreExtractQueries - 0.004s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.665s
+success write out requires - 0.014s
+success run static queries - 0.030s - 2/2 66.70/s
+success run page queries - 0.057s - 3/3 52.26/s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+⠀
+You can now view gatsby-starter-default in the browser.
+⠀
+  http://localhost:8000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and schema
+⠀
+  http://localhost:8000/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use gatsby build
+⠀
+success Building development bundle - 24.615s
 
 
 

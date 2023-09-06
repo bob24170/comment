@@ -69,6 +69,28 @@ G:\blog-comments-step4_e>gatsby develop
 
 
 run on dad pc cmd
+Microsoft Windows [版本 10.0.22000.2176]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\zljsd>g:
+
+G:\>G:\blog-comments-step4_e
+'G:\blog-comments-step4_e' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+G:\>blog-comments-step4_e
+'blog-comments-step4_e' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+G:\>cd "blog-comments-step4"
+系统找不到指定的路径。
+
+G:\>cd "blog-comments-step4_e"
+
+G:\blog-comments-step4_e>gatsby develop
+'gatsby' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
 G:\blog-comments-step4_e>npm run build
 
 > gatsby-starter-default@0.1.0 build
@@ -228,6 +250,22 @@ success Building static HTML for pages - 1.732s - 5/5 2.89/s
 success onPostBuild - 0.002s
 info Done building in 35.3832823 sec
 
+
+G:\blog-comments-step4_e>firebase login --reauth
+
+G:\blog-comments-step4_e>
+[14072:0906/105134.483:ERROR:node_bindings.cc(292)] Most NODE_OPTIONs are not supported in packaged apps. See documentation for more details.
+
+G:\blog-comments-step4_e>firebase init
+
+G:\blog-comments-step4_e>
+[14412:0906/105154.487:ERROR:node_bindings.cc(292)] Most NODE_OPTIONs are not supported in packaged apps. See documentation for more details.
+
+G:\blog-comments-step4_e>
+G:\blog-comments-step4_e>
+G:\blog-comments-step4_e>
+G:\blog-comments-step4_e>firebase init
+当前目录无效。
 
 G:\blog-comments-step4_e>
 

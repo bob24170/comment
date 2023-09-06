@@ -1,3 +1,16 @@
+npm run develop 
+in powershell, with 
+"scripts": {
+    "build": "gatsby build",
+    "develop": "set NODE_OPTIONS=--openssl-legacy-provider && gatsby develop",
+
+
+
+
+
+
+
+
 Microsoft Windows [版本 10.0.22000.2176]
 (c) Microsoft Corporation。保留所有权利。
 

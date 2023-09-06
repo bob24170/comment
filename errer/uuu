@@ -38,29 +38,6 @@ PS C:\Users\zljsd\Desktop\comment-main>
 
 
 
-Microsoft Windows [版本 10.0.22000.2176]
-(c) Microsoft Corporation。保留所有权利。
-
-C:\Users\zljsd>g:
-
-G:\>G:\blog-comments-step4_e
-'G:\blog-comments-step4_e' 不是内部或外部命令，也不是可运行的程序
-或批处理文件。
-
-G:\>blog-comments-step4_e
-'blog-comments-step4_e' 不是内部或外部命令，也不是可运行的程序
-或批处理文件。
-
-G:\>cd "blog-comments-step4"
-系统找不到指定的路径。
-
-G:\>cd "blog-comments-step4_e"
-
-G:\blog-comments-step4_e>gatsby develop
-'gatsby' 不是内部或外部命令，也不是可运行的程序
-或批处理文件。
-
-
 
 
 

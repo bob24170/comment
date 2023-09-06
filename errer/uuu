@@ -1,0 +1,12 @@
+Microsoft Windows [版本 10.0.22000.2176]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\zljsd>cd C:\Users\zljsd\Desktop\comment-main
+
+C:\Users\zljsd\Desktop\comment-main>set NODE_OPTIONS=--openssl-legacy-provider
+
+C:\Users\zljsd\Desktop\comment-main>gatsby develop
+'gatsby' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\zljsd\Desktop\comment-main>

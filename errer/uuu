@@ -29,3 +29,195 @@ gatsby : 无法将“gatsby”项识别为 cmdlet、函数、脚本文件或可�
     + FullyQualifiedErrorId : CommandNotFoundException
  
 PS C:\Users\zljsd\Desktop\comment-main> 
+
+
+
+
+
+
+
+
+
+Microsoft Windows [版本 10.0.22000.2176]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\zljsd>g:
+
+G:\>G:\blog-comments-step4_e
+'G:\blog-comments-step4_e' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+G:\>blog-comments-step4_e
+'blog-comments-step4_e' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+G:\>cd "blog-comments-step4"
+系统找不到指定的路径。
+
+G:\>cd "blog-comments-step4_e"
+
+G:\blog-comments-step4_e>gatsby develop
+'gatsby' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+G:\blog-comments-step4_e>npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   Gatsby collects anonymous usage analytics                            ║
+║   to help improve Gatsby for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `gatsby telemetry --disable`   ║
+║   To learn more, checkout https://gatsby.dev/telemetry                 ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+success open and validate gatsby-configs - 0.079s
+success load plugins - 3.562s
+success onPreInit - 0.119s
+success delete html and css files from previous builds - 0.096s
+success initialize cache - 0.006s
+success copy gatsby files - 4.899s
+success onPreBootstrap - 0.047s
+success createSchemaCustomization - 0.006s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.072s
+success building schema - 0.257s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.023s
+success Checking for changed pages - 0.000s
+success createPagesStatefully - 0.034s
+success Cleaning up stale page-data - 0.395s
+success update schema - 0.013s
+success onPreExtractQueries - 0.001s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+G:/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.272s
+success write out redirect data - 0.023s
+success Build manifest and related icons - 0.457s
+success onPostBootstrap - 0.468s
+info bootstrap finished - 17.283s
+success run static queries - 0.042s - 1/1 24.06/s
+success run page queries - 0.199s - 4/4 20.10/s
+success write out requires - 1.485s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(G:\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (G:\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+UNHANDLED REJECTION error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building production JavaScript and CSS bundles - 1.855s
+
+
+G:\blog-comments-step4_e>set NODE_OPTIONS=--openssl-legacy-provider
+
+G:\blog-comments-step4_e>npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+success open and validate gatsby-configs - 0.121s
+success load plugins - 1.199s
+success onPreInit - 0.027s
+success delete html and css files from previous builds - 0.004s
+success initialize cache - 0.005s
+success copy gatsby files - 9.670s
+success onPreBootstrap - 0.036s
+success createSchemaCustomization - 0.006s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.066s
+success building schema - 0.256s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.019s
+success Checking for changed pages - 0.000s
+success createPagesStatefully - 0.038s
+success Cleaning up stale page-data - 0.002s
+success update schema - 0.018s
+success onPreExtractQueries - 0.008s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+G:/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.305s
+success write out redirect data - 0.461s
+success Build manifest and related icons - 0.917s
+success onPostBootstrap - 0.921s
+info bootstrap finished - 16.582s
+success run static queries - 0.041s - 1/1 24.34/s
+success run page queries - 0.118s - 4/4 33.92/s
+success write out requires - 0.487s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(G:\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program (G:\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+success Building production JavaScript and CSS bundles - 12.776s
+success Rewriting compilation hashes - 0.536s
+success Building HTML renderer - 2.185s
+[                            ]   0.000 s 0/5 0% Building static HTML for pages
+[2023-09-06T02:47:52.429Z]  @firebase/app:
+      Warning: This is a browser-targeted Firebase bundle but it appears it is being
+      run in a Node environment.  If running in a Node environment, make sure you
+      are using the bundle specified by the "main" field in package.json.
+
+      If you are using Webpack, you can specify "main" as the first item in
+      "resolve.mainFields":
+      https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+      If using Rollup, use the rollup-plugin-node-resolve plugin and specify "main"
+      as the first item in "mainFields", e.g. ['main', 'module'].
+      https://github.com/rollup/rollup-plugin-node-resolve
+success Building static HTML for pages - 1.732s - 5/5 2.89/s
+success onPostBuild - 0.002s
+info Done building in 35.3832823 sec
+
+
+G:\blog-comments-step4_e>

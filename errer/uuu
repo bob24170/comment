@@ -238,8 +238,267 @@ G:\blog-comments-step4_e>
 
 
 
+run on dad pc
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
 
-run on my pc
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS C:\Users\zljsd> firebase login
+i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+? Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? Yes
+i  To change your data collection preference at any time, run `firebase logout` and log in again.
+
+Visit this URL on this device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=678836039&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+
+Waiting for authentication...
+
++  Success! Logged in as aaa2417002@gmail.com
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                     │
+│                                          Update available 12.4.6 → 12.5.2                                           │
+│                                   To update to the latest version using npm, run                                    │
+│                                            npm install -g firebase-tools                                            │
+│   For other CLI management options, visit the CLI documentation (https://firebase.google.com/docs/cli#update-cli)   │
+│                                                                                                                     │
+│                                                                                                                     │
+│                                                                                                                     │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+PS C:\Users\zljsd> cd G:\blog-comments-step4_e
+cd : 找不到路径“G:\blog-comments-step4_e”，因为该路径不存在。
+所在位置 行:1 字符: 1
++ cd G:\blog-comments-step4_e
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:\blog-comments-step4_e:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\zljsd>
+PS C:\Users\zljsd> :g
+:g : 无法将“:g”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然
+后再试一次。
+所在位置 行:1 字符: 1
++ :g
++ ~~
+    + CategoryInfo          : ObjectNotFound: (:g:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\zljsd> g：
+g： : 无法将“g：”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，
+然后再试一次。
+所在位置 行:1 字符: 1
++ g：
++ ~~
+    + CategoryInfo          : ObjectNotFound: (g：:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\zljsd> g:
+Set-Location : 找不到路径“G:\”，因为该路径不存在。
+所在位置 行:1 字符: 1
++ Set-Location $MyInvocation.MyCommand.Name
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G:\:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\zljsd> cd C:\Users\zljsd\Desktop\blog-comments-step4_e
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+success open and validate gatsby-configs - 0.074s
+success load plugins - 2.130s
+success onPreInit - 0.026s
+success delete html and css files from previous builds - 0.006s
+success initialize cache - 0.005s
+success copy gatsby files - 0.153s
+success onPreBootstrap - 0.017s
+success createSchemaCustomization - 0.008s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.068s
+success building schema - 0.287s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.029s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.046s
+success Cleaning up stale page-data - 0.002s
+success update schema - 0.011s
+success onPreExtractQueries - 0.002s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/zljsd/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.274s
+success write out redirect data - 0.001s
+success Build manifest and related icons - 0.057s
+success onPostBootstrap - 0.061s
+info bootstrap finished - 7.096s
+success run static queries - 0.037s - 2/2 54.43/s
+success run page queries - 0.044s - 3/3 68.09/s
+success write out requires - 0.005s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+
+ ERROR
+
+UNHANDLED REJECTION error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+
+not finished Building production JavaScript and CSS bundles - 1.800s
+
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> set NODE_OPTIONS=--openssl-legacy-provider
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+success open and validate gatsby-configs - 0.076s
+success load plugins - 1.280s
+success onPreInit - 0.025s
+success delete html and css files from previous builds - 0.005s
+success initialize cache - 0.007s
+success copy gatsby files - 0.162s
+success onPreBootstrap - 0.015s
+success createSchemaCustomization - 0.006s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.072s
+success building schema - 0.258s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.021s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.042s
+success Cleaning up stale page-data - 0.002s
+success update schema - 0.012s
+success onPreExtractQueries - 0.001s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/zljsd/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.278s
+success write out redirect data - 0.006s
+success Build manifest and related icons - 0.150s
+success onPostBootstrap - 0.164s
+info bootstrap finished - 5.907s
+success run static queries - 0.054s - 2/2 37.02/s
+success run page queries - 0.044s - 3/3 68.81/s
+success write out requires - 0.018s
+
+ ERROR
+
+UNHANDLED REJECTION error:0308010C:digital envelope routines::unsupported
+
+
+
+  Error: error:0308010C:digital envelope routines::unsupported
+
+  - hash:69 new Hash
+    node:internal/crypto/hash:69:19
+
+  - node:crypto:133 Object.createHash
+    node:crypto:133:10
+
+  - createHash.js:135 module.exports
+    [blog-comments-step4_e]/[webpack]/lib/util/createHash.js:135:53
+
+  - NormalModule.js:417 NormalModule._initBuildHash
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:417:16
+
+  - NormalModule.js:471 handleParseError
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:471:10
+
+  - NormalModule.js:503
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:503:5
+
+  - NormalModule.js:358
+    [blog-comments-step4_e]/[webpack]/lib/NormalModule.js:358:12
+
+  - LoaderRunner.js:373
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:373:3
+
+  - LoaderRunner.js:214 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:214:10
+
+  - LoaderRunner.js:221 iterateNormalLoaders
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:221:10
+
+  - LoaderRunner.js:236
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:236:3
+
+  - LoaderRunner.js:111 context.callback
+    [blog-comments-step4_e]/[loader-runner]/lib/LoaderRunner.js:111:13
+
+  - index.js:44
+    [blog-comments-step4_e]/[babel-loader]/lib/index.js:44:71
+
+  - task_queues:95 processTicksAndRejections
+    node:internal/process/task_queues:95:5
+
+
+not finished Building production JavaScript and CSS bundles - 0.824s
+
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+run on my pc 
 Windows PowerShell
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
@@ -341,3 +600,13 @@ npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.0.0
 npm notice Run npm install -g npm@10.0.0 to update!
 npm notice
 PS C:\Users\88\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+

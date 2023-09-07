@@ -150,3 +150,45 @@ i  hosting[comment-66100]: releasing new version...
 Project Console: https://console.firebase.google.com/project/comment-66100/overview
 Hosting URL: https://comment-66100.web.app
 PS D:\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\blog3> git remote add origin https://github.com/bob24170/comment-final.git
+error: remote origin already exists.
+PS C:\Users\88\Desktop\blog3> git init
+Reinitialized existing Git repository in C:/Users/88/Desktop/blog3/.git/
+PS C:\Users\88\Desktop\blog3> git commit -m "first commit"
+On branch master
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   package.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .firebase/
+        .firebaserc
+        blog-comments-step4_e/
+        firebase.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\88\Desktop\blog3> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/bob24170/comment3.git'
+PS C:\Users\88\Desktop\blog3> git remote add origin https://github.com/bob24170/comment-final.git
+error: remote origin already exists.
+PS C:\Users\88\Desktop\blog3>

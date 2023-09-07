@@ -1,0 +1,81 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog-comments-step4_e
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+success open and validate gatsby-configs - 2.903s
+success load plugins - 7.531s
+success onPreInit - 0.133s
+success delete html and css files from previous builds - 0.013s
+success initialize cache - 0.010s
+success copy gatsby files - 0.790s
+success onPreBootstrap - 0.076s
+success createSchemaCustomization - 0.018s
+success Checking for changed pages - 0.003s
+success source and transform nodes - 0.182s
+success building schema - 0.484s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.040s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.084s
+success Cleaning up stale page-data - 0.009s
+success update schema - 0.029s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.735s
+success write out redirect data - 0.019s
+success Build manifest and related icons - 0.159s
+success onPostBootstrap - 0.181s
+info bootstrap finished - 36.220s
+success run static queries - 0.040s - 2/2 49.52/s
+success run page queries - 0.058s - 3/3 51.57/s
+success write out requires - 0.018s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+success Building production JavaScript and CSS bundles - 29.092s
+success Rewriting compilation hashes - 0.005s
+success Building HTML renderer - 2.955s
+[                            ]   0.000 s 0/5 0% Building static HTML for pages
+[2023-09-07T12:49:00.956Z]  @firebase/app:
+      Warning: This is a browser-targeted Firebase bundle but it appears it is being
+      run in a Node environment.  If running in a Node environment, make sure you
+      are using the bundle specified by the "main" field in package.json.
+
+      If you are using Webpack, you can specify "main" as the first item in
+      "resolve.mainFields":
+      https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+      If using Rollup, use the rollup-plugin-node-resolve plugin and specify "main"
+      as the first item in "mainFields", e.g. ['main', 'module'].
+      https://github.com/rollup/rollup-plugin-node-resolve
+success Building static HTML for pages - 0.463s - 5/5 10.80/s
+success onPostBuild - 0.003s
+info Done building in 69.058841072 sec
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 1 files in \blog-comments-step4_e
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog-comments-step4_e>

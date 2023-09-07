@@ -118,3 +118,35 @@ Hosting URL: https://comment-66100.web.app
 ──────────────────────────────────────────────────────────╯
 
 PS C:\Users\88\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+u盘
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd D:\blog-comments-step4_e
+PS D:\blog-comments-step4_e> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 53 files in /public
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS D:\blog-comments-step4_e>

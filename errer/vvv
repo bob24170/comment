@@ -192,3 +192,26 @@ error: failed to push some refs to 'https://github.com/bob24170/comment3.git'
 PS C:\Users\88\Desktop\blog3> git remote add origin https://github.com/bob24170/comment-final.git
 error: remote origin already exists.
 PS C:\Users\88\Desktop\blog3>
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS C:\Users\zljsd> cd C:\Users\zljsd\Desktop\blog-comments-step4_e
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+'gatsby' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e>

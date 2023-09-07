@@ -32,7 +32,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
     "develop": "set NODE_OPTIONS=--openssl-legacy-provider && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

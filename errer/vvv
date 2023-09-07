@@ -78,4 +78,43 @@ i  hosting[comment-66100]: releasing new version...
 
 Project Console: https://console.firebase.google.com/project/comment-66100/overview
 Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 53 files in /public
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+
+╭───────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────╮
+│
+│
+│                                          Update available 12.4.7 → 12.5.2
+│
+│                                   To update to the latest version using npm, run
+│
+│                                            npm install -g firebase-tools
+│
+│   For other CLI management options, visit the CLI documentation (https://firebase.google.com/docs/cli#update-cli)
+│
+│
+│
+│
+│
+│
+│
+╰───────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────╯
+
 PS C:\Users\88\Desktop\blog-comments-step4_e>

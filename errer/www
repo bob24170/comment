@@ -1,0 +1,73 @@
+lyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated core-js-pure@3.6.5: core-js-pure@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims,
+feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js-pure.
+npm WARN deprecated core-js@3.6.5: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies
+to the actual version of core-js.
+npm WARN cleanup Failed to remove some directories [
+npm WARN cleanup   [
+npm WARN cleanup     'C:\\Users\\88\\Desktop\\blog-comments-step4_e\\node_modules\\@babel\\polyfill',
+npm WARN cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\polyfill\node_modules'] {
+npm WARN cleanup       errno: -4048,
+npm WARN cleanup       code: 'EPERM',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\88\\Desktop\\blog-comments-step4_e\\node_modules\\@babel\\polyfill\\node_modules'
+npm WARN cleanup     }
+npm WARN cleanup   ]
+npm WARN cleanup ]
+npm ERR! code 1
+npm ERR! path C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp
+npm ERR! command failed
+npm ERR! command C:\Windows\system32\cmd.exe /d /s /c (node install/libvips && node install/dll-copy && prebuild-install --runtime=napi) || (node-gyp rebuild && node install/dll-copy)
+npm ERR! info sharp Using cached C:\Users\88\AppData\Local\npm-cache\_libvips\libvips-8.9.1-win32-x64.tar.gz
+npm ERR! info sharp Creating C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\build\Release
+npm ERR! info sharp Copying DLLs from C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\vendor\lib to C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\build\Release
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.3.1
+npm ERR! gyp info using node@18.17.0 | win32 | x64
+npm ERR! gyp info find Python using Python version 3.11.4 found at "C:\Users\88\AppData\Local\Programs\Python\Python311\python.exe"
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! find VS msvs_version not set from command line or npm config
+npm ERR! gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm ERR! gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer,
+try re-running with '--loglevel silly' for more details
+npm ERR! gyp ERR! find VS looking for Visual Studio 2015
+npm ERR! gyp ERR! find VS - not found
+npm ERR! gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! find VS **************************************************************
+npm ERR! gyp ERR! find VS You need to install the latest version of Visual Studio
+npm ERR! gyp ERR! find VS including the "Desktop development with C++" workload.
+npm ERR! gyp ERR! find VS For more information consult the documentation at:
+npm ERR! gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm ERR! gyp ERR! find VS **************************************************************
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! configure error
+npm ERR! gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm ERR! gyp ERR! stack     at VisualStudioFinder.fail (C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:122:47)
+npm ERR! gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:75:16
+npm ERR! gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:369:14)
+npm ERR! gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:71:14
+npm ERR! gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:390:16
+npm ERR! gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\util.js:54:7
+npm ERR! gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\util.js:33:16
+npm ERR! gyp ERR! stack     at ChildProcess.exithandler (node:child_process:427:5)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:514:28)
+npm ERR! gyp ERR! stack     at maybeClose (node:internal/child_process:1091:16)
+npm ERR! gyp ERR! System Windows_NT 6.3.9600
+npm ERR! gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\88\\AppData\\Roaming\\nvm\\v18.17.0\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+npm ERR! gyp ERR! cwd C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp
+npm ERR! gyp ERR! node -v v18.17.0
+npm ERR! gyp ERR! node-gyp -v v9.3.1
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in: C:\Users\88\AppData\Local\npm-cache\_logs\2023-09-21T13_45_00_813Z-debug-0.log
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+ *  History restored 
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>

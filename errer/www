@@ -1,22 +1,4 @@
-lyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
-npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
-npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
-npm WARN deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
-npm WARN deprecated core-js-pure@3.6.5: core-js-pure@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims,
-feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js-pure.
-npm WARN deprecated core-js@3.6.5: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies
-to the actual version of core-js.
-npm WARN cleanup Failed to remove some directories [
-npm WARN cleanup   [
-npm WARN cleanup     'C:\\Users\\88\\Desktop\\blog-comments-step4_e\\node_modules\\@babel\\polyfill',
-npm WARN cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\polyfill\node_modules'] {
-npm WARN cleanup       errno: -4048,
-npm WARN cleanup       code: 'EPERM',
-npm WARN cleanup       syscall: 'rmdir',
-npm WARN cleanup       path: 'C:\\Users\\88\\Desktop\\blog-comments-step4_e\\node_modules\\@babel\\polyfill\\node_modules'
-npm WARN cleanup     }
-npm WARN cleanup   ]
-npm WARN cleanup ]
+npm install
 npm ERR! code 1
 npm ERR! path C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp
 npm ERR! command failed

@@ -53,3 +53,31 @@ Windows PowerShell
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
 PS C:\Users\88\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> gatsby build
+
+
+ ERROR  UNKNOWN
+
+There was a problem loading the local build command. Gatsby may not be
+installed in your site's "node_modules" directory. Perhaps you need to run
+"npm install"? You might need to delete your "package-lock.json" as well.
+
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>

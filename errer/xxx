@@ -107,3 +107,158 @@ not finished load plugins - 8.116s
 
 C:\Users\88\Desktop\blog-comments-step4_e>
 C:\Users\88\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88> cd C:\Users\88\Desktop\blog-comments-step4_e
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+success open and validate gatsby-configs - 1.111s
+
+ ERROR #11331  PLUGIN
+
+Invalid plugin options for "gatsby-plugin-manifest":
+
+- "value" must contain at least one of [icon, icons]
+
+not finished load plugins - 4.614s
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+success open and validate gatsby-configs - 0.530s
+success load plugins - 2.566s
+success onPreInit - 0.132s
+success delete html and css files from previous builds - 0.009s
+success initialize cache - 0.015s
+success copy gatsby files - 0.482s
+success onPreBootstrap - 0.121s
+success createSchemaCustomization - 0.028s
+success Checking for changed pages - 0.008s
+success source and transform nodes - 0.189s
+success building schema - 0.563s
+info Total nodes: 55, SitePage nodes: 3 (use --verbose for breakdown)
+success createPages - 0.049s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.090s
+success update schema - 0.028s
+success onPreExtractQueries - 0.003s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.674s
+success write out redirect data - 0.002s
+success Build manifest and related icons - 0.170s
+success onPostBootstrap - 0.182s
+info bootstrap finished - 14.317s
+success run static queries - 0.028s - 2/2 70.42/s
+success run page queries - 0.074s - 5/5 67.75/s
+success write out requires - 0.010s
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\@babel\types\lib\validators\generated\index.js:2740:35)
+    at PluginPass.Program
+(C:\Users\88\Desktop\blog-comments-step4_e\node_modules\babel-plugin-lodash\lib\index.js:102:44)
+success Building production JavaScript and CSS bundles - 27.541s
+success Rewriting compilation hashes - 0.003s
+success Building HTML renderer - 3.106s
+[                            ]   0.001 s 0/5 0% Building static HTML for pages
+[2023-09-25T14:38:44.223Z]  @firebase/app:
+      Warning: This is a browser-targeted Firebase bundle but it appears it is being
+      run in a Node environment.  If running in a Node environment, make sure you
+      are using the bundle specified by the "main" field in package.json.
+
+      If you are using Webpack, you can specify "main" as the first item in
+      "resolve.mainFields":
+      https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+      If using Rollup, use the rollup-plugin-node-resolve plugin and specify "main"
+      as the first item in "mainFields", e.g. ['main', 'module'].
+      https://github.com/rollup/rollup-plugin-node-resolve
+success Building static HTML for pages - 0.433s - 5/5 11.56/s
+success onPostBuild - 0.002s
+info Done building in 45.711987384 sec
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase deploy
+
+Error: Not in a Firebase app directory (could not locate firebase.json)
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\blog-comments-step4_e
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to
+confirm your choices. Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: comment-66100 (comment)
+i  Using project comment-66100 (comment)
+
+=== Hosting Setup
+
+Your public directory is the folder (relative to your project directory) that
+will contain Hosting assets to be uploaded with firebase deploy. If you
+have a build process for your assets, use your build's output directory.
+
+? What do you want to use as your public directory? public
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
+? File public/404.html already exists. Overwrite? No
+i  Skipping write of public/404.html
+? File public/index.html already exists. Overwrite? No
+i  Skipping write of public/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+PS C:\Users\88\Desktop\blog-comments-step4_e> firebase deploy
+
+=== Deploying to 'comment-66100'...
+
+i  deploying hosting
+i  hosting[comment-66100]: beginning deploy...
+i  hosting[comment-66100]: found 53 files in public
++  hosting[comment-66100]: file upload complete
+i  hosting[comment-66100]: finalizing version...
++  hosting[comment-66100]: version finalized
+i  hosting[comment-66100]: releasing new version...
++  hosting[comment-66100]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/comment-66100/overview
+Hosting URL: https://comment-66100.web.app
+PS C:\Users\88\Desktop\blog-comments-step4_e>

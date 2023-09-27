@@ -1,0 +1,29 @@
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS C:\Users\zljsd> cd C:\Users\zljsd\Desktop\blog-comments-step4_e
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+'gatsby' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> cd C:\Users\zljsd
+PS C:\Users\zljsd> npm install -g gatsby-cli
+
+changed 333 packages in 2m
+
+51 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\zljsd> cd C:\Users\zljsd\Desktop\blog-comments-step4_e
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+'gatsby' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e>

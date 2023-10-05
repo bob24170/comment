@@ -1,3 +1,16 @@
+How do I fix npm's global location?
+in npmrc 
+${APPDATA}/npm
+
+
+
+
+
+
+
+
+
+
 Windows PowerShell
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
@@ -322,3 +335,169 @@ gyp ERR! stack     at maybeClose (node:internal/child_process:1091:16)
 gyp ERR! System Windows_NT 6.3.9600
 gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
 gyp ERR! cwd C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Users\88\Desktop\blog-comments-step4_e
+
+C:\Users\88\Desktop\blog-comments-step4_e>npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+success open and validate gatsby-configs - 0.063s
+
+ ERROR
+
+Error in "C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-transfor
+mer-sharp\gatsby-node.js":
+Something went wrong installing the "sharp" module
+
+Cannot find module '../build/Release/sharp.node'
+Require stack:
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\lib\constructor.j
+s
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\lib\index.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-sharp\saf
+e-sharp.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-sharp\ind
+ex.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-transformer-shar
+p\customize-schema.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-transformer-shar
+p\gatsby-node.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap\r
+esolve-module-exports.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap\l
+oad-plugins\validate.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap\l
+oad-plugins\load.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap\l
+oad-plugins\index.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap\i
+ndex.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\commands\bu
+ild.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-cli\lib\create-c
+li.js
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-cli\lib\index.js
+
+- C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bin\gatsby.
+js
+
+- Run "npm rebuild --verbose sharp" and look for errors
+- Consult the installation documentation at https://sharp.pixelplumbing.com/inst
+all
+- Search for this error at https://github.com/lovell/sharp/issues
+
+
+
+
+  Error: Something went wrong installing the "sharp" module
+  Cannot find module '../build/Release/sharp.node'
+  Require stack:
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\lib\constructor
+  .js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp\lib\index.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-sharp\s
+  afe-sharp.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-sharp\i
+  ndex.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-transformer-sh
+  arp\customize-schema.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-transformer-sh
+  arp\gatsby-node.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap
+  \resolve-module-exports.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap
+  \load-plugins\validate.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap
+  \load-plugins\load.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap
+  \load-plugins\index.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bootstrap
+  \index.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\commands\
+  build.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-cli\lib\create
+  -cli.js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby-cli\lib\index.
+  js
+  - C:\Users\88\Desktop\blog-comments-step4_e\node_modules\gatsby\dist\bin\gatsb
+  y.js
+  - Run "npm rebuild --verbose sharp" and look for errors
+  - Consult the installation documentation at https://sharp.pixelplumbing.com/in
+  stall
+  - Search for this error at https://github.com/lovell/sharp/issues
+
+  - constructor.js:34 Object.<anonymous>
+    [blog-comments-step4_e]/[sharp]/lib/constructor.js:34:9
+
+  - v8-compile-cache.js:178 Module._compile
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:178:30
+
+  - loader:1310 Module._extensions..js
+    node:internal/modules/cjs/loader:1310:10
+
+  - loader:1119 Module.load
+    node:internal/modules/cjs/loader:1119:32
+
+  - loader:960 Module._load
+    node:internal/modules/cjs/loader:960:12
+
+  - loader:1143 Module.require
+    node:internal/modules/cjs/loader:1143:19
+
+  - v8-compile-cache.js:159 require
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:159:20
+
+  - index.js:3 Object.<anonymous>
+    [blog-comments-step4_e]/[sharp]/lib/index.js:3:15
+
+  - v8-compile-cache.js:178 Module._compile
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:178:30
+
+  - loader:1310 Module._extensions..js
+    node:internal/modules/cjs/loader:1310:10
+
+  - loader:1119 Module.load
+    node:internal/modules/cjs/loader:1119:32
+
+  - loader:960 Module._load
+    node:internal/modules/cjs/loader:960:12
+
+  - loader:1143 Module.require
+    node:internal/modules/cjs/loader:1143:19
+
+  - v8-compile-cache.js:159 require
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:159:20
+
+  - safe-sharp.js:127 Object.<anonymous>
+    [blog-comments-step4_e]/[gatsby-plugin-sharp]/safe-sharp.js:127:11
+
+  - v8-compile-cache.js:178 Module._compile
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:178:30
+
+
+not finished load plugins - 0.944s
+
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>
+C:\Users\88\Desktop\blog-comments-step4_e>

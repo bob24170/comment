@@ -821,4 +821,104 @@ Require stack:
 
 not finished load plugins - 0.392s
 PS C:\Users\88\Desktop\blog-comments-step4_e>
+PS C:\Users\88\Desktop\blog-comments-step4_e> yarn install sharp
+yarn install v1.22.19
+error `install` has been replaced with `add` to add new dependencies. Run "yarn add sharp" instead.
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+PS C:\Users\88\Desktop\blog-comments-step4_e> yarn add sharp
+yarn add v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "firebase > @firebase/firestore > @grpc/grpc-js@1.1.1" has unmet peer dependency "google-auth-library@5.x || 6.x
+".
+warning "gatsby > @pmmmwh/react-refresh-webpack-plugin@0.3.1" has incorrect peer dependency "react-refresh@^0.8.2".
+warning "gatsby > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >=
+ 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-
+beta".
+warning " > styled-components@5.1.0" has unmet peer dependency "react-is@>= 16.8.0".
+[4/4] Building fresh packages...
+[9/17] ⠄ mozjpeg
+[7/17] ⠄ gatsby
+[8/17] ⠄ sharp
+[11/17] ⠄ cwebp-bin
+error C:\Users\88\Desktop\blog-comments-step4_e\node_modules\pngquant-bin: Command failed.
+Exit code: 1
+Command: node lib/install.js
+Arguments:
+Directory: C:\Users\88\Desktop\blog-comments-step4_e\node_modules\pngquant-bin
+Output:
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.resolve (node:path:167:9)
+    at Object.<anonymous> (C:\Users\88\Desktop\blog-comments-step4_e\node_modules\npm-conf\lib\defaults.js:31:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18) {
+  code: 'ERR_INVALID_ARG_TYPE'
+
+
+
+
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+PS C:\Users\88\Desktop\blog-comments-step4_e>
+PS C:\Users\88\Desktop\blog-comments-step4_e> npm run build
+
+> gatsby-starter-default@0.1.0 build
+> set NODE_OPTIONS=--openssl-legacy-provider && gatsby build
+
+success open and validate gatsby-configs - 0.066s
+success load plugins - 6.422s
+success onPreInit - 0.101s
+success delete html and css files from previous builds - 0.020s
+success initialize cache - 0.018s
+success copy gatsby files - 0.371s
+success onPreBootstrap - 0.037s
+success createSchemaCustomization - 0.012s
+success source and transform nodes - 0.172s
+success building schema - 0.585s
+success createPages - 0.074s
+success createPagesStatefully - 0.101s
+success onPreExtractQueries - 0.004s
+success update schema - 0.029s
+warn Using the global `graphql` tag is deprecated, and will not be supported in v3.
+Import it instead like:  import { graphql } from 'gatsby' in file:
+C:/Users/88/Desktop/blog-comments-step4_e/src/pages/index.js
+success extract queries from components - 0.452s
+success write out requires - 0.008s
+success write out redirect data - 0.004s
+success Build manifest and related icons - 0.174s
+success onPostBootstrap - 0.189s
+⠀
+info bootstrap finished - 23.538s
+⠀
+warn Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+success Building production JavaScript and CSS bundles - 43.737s
+success Rewriting compilation hashes - 0.015s
+success run queries - 44.511s - 7/7 0.16/s
+[                            ]   0.001 s 0/5 0% Building static HTML for pages
+[2023-10-05T13:12:16.286Z]  @firebase/app:
+      Warning: This is a browser-targeted Firebase bundle but it appears it is being
+      run in a Node environment.  If running in a Node environment, make sure you
+      are using the bundle specified by the "main" field in package.json.
+
+      If you are using Webpack, you can specify "main" as the first item in
+      "resolve.mainFields":
+      https://webpack.js.org/configuration/resolve/#resolvemainfields
+
+      If using Rollup, use the rollup-plugin-node-resolve plugin and specify "main"
+      as the first item in "mainFields", e.g. ['main', 'module'].
+      https://github.com/rollup/rollup-plugin-node-resolve
+success Building static HTML for pages - 3.124s - 5/5 1.60/s
+success onPostBuild - 0.004s
+info Done building in 71.261008 sec
 PS C:\Users\88\Desktop\blog-comments-step4_e>

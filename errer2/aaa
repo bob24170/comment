@@ -176,11 +176,38 @@ PS C:\Users\88\Desktop\blog-comments-step4_e>
 
 
 
+
+
+
+
 Microsoft Windows [Version 6.3.9600]
 (c) 2013 Microsoft Corporation. All rights reserved.
 
 C:\Users\88>npm install -g yarn
 
 changed 1 package in 4s
+
+C:\Users\88>npm install -g yarn
+npm ERR! code EEXIST
+npm ERR! path C:\Users\88\${APPDATA}\npm\node_modules\yarn
+npm ERR! EEXIST: file already exists
+npm ERR! File exists: C:\Users\88\${APPDATA}\npm\node_modules\yarn
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in: C:\Users\88\npm-cache\_logs
+\2023-10-05T11_19_46_829Z-debug-0.log
+
+C:\Users\88>npm install -g yarn --force
+npm WARN using --force Recommended protections disabled.
+npm ERR! code EISDIR
+npm ERR! syscall open
+npm ERR! path C:\Users\88\${APPDATA}\npm\node_modules\yarn
+npm ERR! errno -4068
+npm ERR! EISDIR: illegal operation on a directory, open 'C:\Users\88\${APPDATA}\
+npm\node_modules\yarn'
+
+npm ERR! A complete log of this run can be found in: C:\Users\88\npm-cache\_logs
+\2023-10-05T11_21_44_065Z-debug-0.log
 
 C:\Users\88>

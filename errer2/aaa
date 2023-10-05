@@ -236,3 +236,89 @@ C:\Users\88>npm i -g yarn
 added 1 package in 3s
 
 C:\Users\88>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\blog-comments-step4_e> yarn install
+yarn install v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "firebase > @firebase/firestore > @grpc/grpc-js@1.1.1" has unmet peer dependency "google-auth-library@5.x || 6.x".
+warning "gatsby > @pmmmwh/react-refresh-webpack-plugin@0.3.1" has incorrect peer dependency "react-refresh@^0.8.2".
+warning "gatsby > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > styled-components@5.1.0" has unmet peer dependency "react-is@>= 16.8.0".
+[4/4] Building fresh packages...
+[8/14] ⠄ sharp
+[11/14] ⠄ cwebp-bin
+[9/14] ⠄ mozjpeg
+[-/14] ⡀ waiting...
+error C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp: Command failed.
+Exit code: 1
+Command: (node install/libvips && node install/dll-copy && prebuild-install --runtime=napi) || (node-gyp rebuild && node install/dll-copy)
+Arguments:
+Directory: C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp
+Output:
+info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.9.1/libvips-8.9.1-win32-x64.tar.gz
+ERR! sharp read ECONNRESET
+info sharp Attempting to build from source via node-gyp but this may fail due to the above error
+info sharp Please see https://sharp.pixelplumbing.com/install for required dependencies
+
+C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild )
+gyp info it worked if it ends with ok
+gyp info using node-gyp@9.3.1
+gyp info using node@18.17.0 | win32 | x64
+gyp info find Python using Python version 3.11.4 found at "C:\Users\88\AppData\Local\Programs\Python\Python311\python.exe"
+gyp ERR! find VS
+gyp ERR! find VS msvs_version not set from command line or npm config
+gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running
+with '--loglevel silly' for more details
+gyp ERR! find VS looking for Visual Studio 2015
+gyp ERR! find VS - not found
+gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+gyp ERR! find VS
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS You need to install the latest version of Visual Studio
+gyp ERR! find VS including the "Desktop development with C++" workload.
+gyp ERR! find VS For more information consult the documentation at:
+gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS
+gyp ERR! configure error
+gyp ERR! stack Error: Could not find any Visual Studio installation to use
+gyp ERR! stack     at VisualStudioFinder.fail (C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:122:47)
+gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:75:16
+gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:369:14)
+gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:71:14
+gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:390:16
+gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\util.js:54:7
+gyp ERR! stack     at C:\Users\88\AppData\Roaming\nvm\v18.17.0\node_modules\npm\node_modules\node-gyp\lib\util.js:33:16
+gyp ERR! stack     at ChildProcess.exithandler (node:child_process:427:5)
+gyp ERR! stack     at ChildProcess.emit (node:events:514:28)
+gyp ERR! stack     at maybeClose (node:internal/child_process:1091:16)
+gyp ERR! System Windows_NT 6.3.9600
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+gyp ERR! cwd C:\Users\88\Desktop\blog-comments-step4_e\node_modules\sharp

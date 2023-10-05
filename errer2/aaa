@@ -210,4 +210,29 @@ npm\node_modules\yarn'
 npm ERR! A complete log of this run can be found in: C:\Users\88\npm-cache\_logs
 \2023-10-05T11_21_44_065Z-debug-0.log
 
+C:\Users\88>npm install -g yarn
+
+added 1 package in 3s
+
+C:\Users\88>npm i -g yarn
+
+changed 1 package in 2s
+
+C:\Users\88>npm i -g yarn
+
+added 1 package in 3s
+
+C:\Users\88>npm ls -g
+C:\Users\88\${APPDATA}
+`-- yarn@1.22.19
+
+
+C:\Users\88>npm i -g yarn
+
+changed 1 package in 945ms
+
+C:\Users\88>npm i -g yarn
+
+added 1 package in 3s
+
 C:\Users\88>

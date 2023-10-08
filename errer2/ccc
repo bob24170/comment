@@ -239,3 +239,615 @@ TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string
 
 
 C:\Users\zljsd\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+run in powershell
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS C:\Users\zljsd> cd C:\Users\zljsd\Desktop\blog-comments-step4_a\node_modules\pngquant-bin
+PS C:\Users\zljsd\Desktop\blog-comments-step4_a\node_modules\pngquant-bin> yarn add sharp
+yarn add v1.22.19
+warning ..\..\..\..\package.json: No license field
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning bin-build > tempfile > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+warning xo > globby > fast-glob > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+warning xo > globby > fast-glob > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning xo > globby > fast-glob > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+warning xo > globby > fast-glob > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+warning "xo > eslint-import-resolver-webpack@0.12.2" has unmet peer dependency "webpack@>=1.11.0".
+[5/5] Building fresh packages...
+success Saved lockfile.
+success Saved 538 new dependencies.
+info Direct dependencies
+├─ ava@3.15.0
+├─ bin-build@3.0.0
+├─ bin-check@4.1.0
+├─ bin-wrapper@4.1.0
+├─ compare-size@3.0.0
+├─ execa@4.1.0
+├─ sharp@0.32.6
+├─ tempy@0.5.0
+└─ xo@0.30.0
+info All dependencies
+├─ @babel/helper-validator-identifier@7.22.20
+├─ @babel/highlight@7.22.20
+├─ @concordance/react@2.0.0
+├─ @mrmlnc/readdir-enhanced@2.2.1
+├─ @nodelib/fs.scandir@2.1.5
+├─ @nodelib/fs.stat@2.0.5
+├─ @nodelib/fs.walk@1.2.8
+├─ @sindresorhus/is@0.7.0
+├─ @szmarczak/http-timer@1.1.2
+├─ @types/eslint-visitor-keys@1.0.0
+├─ @types/glob@7.2.0
+├─ @types/json-schema@7.0.13
+├─ @types/json5@0.0.29
+├─ @types/minimatch@5.1.2
+├─ @types/node@20.8.3
+├─ @types/normalize-package-data@2.4.2
+├─ @types/parse-json@4.0.0
+├─ @typescript-eslint/eslint-plugin@2.34.0
+├─ @typescript-eslint/parser@2.34.0
+├─ acorn-jsx@5.3.2
+├─ acorn-walk@8.2.0
+├─ acorn@7.4.1
+├─ aggregate-error@3.1.0
+├─ ajv@6.12.6
+├─ ansi-regex@5.0.1
+├─ anymatch@3.1.3
+├─ arch@2.2.0
+├─ archive-type@4.0.0
+├─ argparse@1.0.10
+├─ arr-flatten@1.1.0
+├─ array-find-index@1.0.2
+├─ array-find@1.0.0
+├─ array-includes@3.1.7
+├─ array-union@2.1.0
+├─ array-uniq@1.0.3
+├─ array.prototype.findlastindex@1.2.3
+├─ array.prototype.flat@1.3.2
+├─ array.prototype.flatmap@1.3.2
+├─ arraybuffer.prototype.slice@1.0.2
+├─ arrgv@1.0.2
+├─ asn1.js@5.4.1
+├─ assert@1.5.1
+├─ assign-symbols@1.0.0
+├─ astral-regex@2.0.0
+├─ at-least-node@1.0.0
+├─ atob@2.1.2
+├─ ava@3.15.0
+├─ b4a@1.6.4
+├─ balanced-match@1.0.2
+├─ base@0.11.2
+├─ base64-js@1.5.1
+├─ bin-build@3.0.0
+├─ bin-check@4.1.0
+├─ bin-version-check@4.0.0
+├─ bin-version@3.1.0
+├─ bin-wrapper@4.1.0
+├─ binary-extensions@2.2.0
+├─ bl@4.1.0
+├─ blueimp-md5@2.19.0
+├─ boxen@4.2.0
+├─ brace-expansion@1.1.11
+├─ braces@3.0.2
+├─ brorand@1.1.0
+├─ browserify-aes@1.2.0
+├─ browserify-cipher@1.0.1
+├─ browserify-des@1.0.2
+├─ browserify-rsa@4.1.0
+├─ browserify-sign@4.2.1
+├─ browserify-zlib@0.2.0
+├─ buf-compare@1.0.1
+├─ buffer-alloc-unsafe@1.1.0
+├─ buffer-alloc@1.2.0
+├─ buffer-crc32@0.2.13
+├─ buffer-fill@1.0.0
+├─ buffer-from@1.1.2
+├─ buffer-xor@1.0.3
+├─ buffer@5.7.1
+├─ builtin-status-codes@3.0.0
+├─ cache-base@1.0.1
+├─ cacheable-request@2.1.4
+├─ call-me-maybe@1.0.2
+├─ callsites@3.1.0
+├─ camelcase-keys@4.2.0
+├─ caw@2.0.1
+├─ chardet@0.7.0
+├─ chokidar@3.5.3
+├─ chownr@1.1.4
+├─ chunkd@2.0.1
+├─ ci-parallel-vars@1.0.1
+├─ class-utils@0.3.6
+├─ clean-regexp@1.0.0
+├─ clean-stack@2.2.0
+├─ clean-yaml-object@0.1.0
+├─ cli-boxes@2.2.1
+├─ cli-spinners@2.9.1
+├─ cli-truncate@2.1.0
+├─ cli-width@3.0.0
+├─ cliui@7.0.4
+├─ clone-response@1.0.2
+├─ clone@1.0.4
+├─ code-excerpt@3.0.0
+├─ collection-visit@1.0.0
+├─ color-name@1.1.4
+├─ color-string@1.9.1
+├─ color@4.2.3
+├─ commander@2.20.3
+├─ common-path-prefix@3.0.0
+├─ commondir@1.0.1
+├─ compare-size@3.0.0
+├─ concat-map@0.0.1
+├─ concordance@5.0.4
+├─ config-chain@1.1.13
+├─ confusing-browser-globals@1.0.9
+├─ console-browserify@1.2.0
+├─ constants-browserify@1.0.0
+├─ convert-source-map@1.9.0
+├─ convert-to-spaces@1.0.2
+├─ copy-descriptor@0.1.1
+├─ core-assert@0.2.1
+├─ core-util-is@1.0.3
+├─ cosmiconfig@6.0.0
+├─ create-ecdh@4.0.4
+├─ create-hmac@1.1.7
+├─ cross-spawn@6.0.5
+├─ crypto-browserify@3.12.0
+├─ crypto-random-string@2.0.0
+├─ date-time@3.1.0
+├─ debug@4.3.4
+├─ decamelize-keys@1.1.1
+├─ decamelize@1.2.0
+├─ decompress-tar@4.1.1
+├─ decompress-tarbz2@4.1.1
+├─ decompress-targz@4.1.1
+├─ decompress-unzip@4.0.1
+├─ decompress@4.2.1
+├─ deep-extend@0.6.0
+├─ deep-is@0.1.4
+├─ deep-strict-equal@0.2.0
+├─ defaults@1.0.4
+├─ defer-to-connect@1.1.3
+├─ del@6.1.1
+├─ des.js@1.1.0
+├─ detect-libc@2.0.2
+├─ diffie-hellman@5.0.3
+├─ dir-glob@3.0.1
+├─ doctrine@2.1.0
+├─ domain-browser@1.2.0
+├─ dot-prop@5.3.0
+├─ download@6.2.5
+├─ emittery@0.8.1
+├─ emoji-regex@8.0.0
+├─ end-of-stream@1.4.4
+├─ enhance-visitors@1.0.0
+├─ enhanced-resolve@0.9.1
+├─ env-editor@0.4.2
+├─ equal-length@1.0.1
+├─ es-set-tostringtag@2.0.1
+├─ es-to-primitive@1.2.1
+├─ escalade@3.1.1
+├─ escape-goat@2.1.1
+├─ eslint-ast-utils@1.1.0
+├─ eslint-config-prettier@6.15.0
+├─ eslint-config-xo-typescript@0.28.0
+├─ eslint-config-xo@0.29.1
+├─ eslint-formatter-pretty@3.0.1
+├─ eslint-import-resolver-node@0.3.9
+├─ eslint-import-resolver-webpack@0.12.2
+├─ eslint-module-utils@2.8.0
+├─ eslint-plugin-ava@10.5.0
+├─ eslint-plugin-es@3.0.1
+├─ eslint-plugin-eslint-comments@3.2.0
+├─ eslint-plugin-import@2.28.1
+├─ eslint-plugin-no-use-extend-native@0.5.0
+├─ eslint-plugin-node@11.1.0
+├─ eslint-plugin-prettier@3.4.1
+├─ eslint-plugin-promise@4.3.1
+├─ eslint-plugin-unicorn@19.0.1
+├─ eslint-rule-docs@1.1.235
+├─ eslint-template-visitor@1.1.0
+├─ eslint@6.8.0
+├─ espree@6.2.1
+├─ esprima@4.0.1
+├─ espurify@2.1.1
+├─ esquery@1.5.0
+├─ esrecurse@4.3.0
+├─ estraverse@5.3.0
+├─ events@3.3.0
+├─ execa@4.1.0
+├─ executable@4.1.1
+├─ expand-brackets@2.1.4
+├─ expand-template@2.0.3
+├─ ext-list@2.2.2
+├─ external-editor@3.1.0
+├─ extglob@2.0.4
+├─ fast-deep-equal@3.1.3
+├─ fast-diff@1.3.0
+├─ fast-fifo@1.3.2
+├─ fast-glob@3.3.1
+├─ fast-json-stable-stringify@2.1.0
+├─ fast-levenshtein@2.0.6
+├─ fastq@1.15.0
+├─ fd-slicer@1.1.0
+├─ figures@3.2.0
+├─ file-entry-cache@5.0.1
+├─ filename-reserved-regex@2.0.0
+├─ fill-range@7.0.1
+├─ find-cache-dir@3.3.2
+├─ find-root@1.1.0
+├─ find-versions@3.2.0
+├─ flat-cache@2.0.1
+├─ flatted@2.0.2
+├─ for-in@1.0.2
+├─ from2@2.3.0
+├─ fs-extra@9.1.0
+├─ fs.realpath@1.0.0
+├─ function.prototype.name@1.1.6
+├─ get-caller-file@2.0.5
+├─ get-proxy@2.1.0
+├─ get-set-props@0.1.0
+├─ get-stdin@7.0.0
+├─ get-stream@3.0.0
+├─ get-symbol-description@1.0.0
+├─ get-value@2.0.6
+├─ github-from-package@0.0.0
+├─ glob-parent@5.1.2
+├─ glob-to-regexp@0.3.0
+├─ global-dirs@2.1.0
+├─ globals@12.4.0
+├─ globalthis@1.0.3
+├─ got@7.1.0
+├─ graceful-fs@4.2.11
+├─ has-bigints@1.0.2
+├─ has-symbol-support-x@1.4.2
+├─ has-to-string-tag-x@1.4.1
+├─ has-value@1.0.0
+├─ hash.js@1.1.7
+├─ hmac-drbg@1.0.1
+├─ hosted-git-info@2.8.9
+├─ http-cache-semantics@3.8.1
+├─ https-browserify@1.0.0
+├─ human-signals@1.1.1
+├─ iconv-lite@0.4.24
+├─ ieee754@1.2.1
+├─ ignore-by-default@2.1.0
+├─ ignore@5.2.4
+├─ import-fresh@3.3.0
+├─ import-local@3.1.0
+├─ inflight@1.0.6
+├─ ini@1.3.8
+├─ inquirer@7.3.3
+├─ internal-slot@1.0.5
+├─ interpret@1.4.0
+├─ into-stream@3.1.0
+├─ irregular-plurals@3.5.0
+├─ is-absolute@1.0.0
+├─ is-accessor-descriptor@1.0.0
+├─ is-arrayish@0.2.1
+├─ is-bigint@1.0.4
+├─ is-binary-path@2.1.0
+├─ is-boolean-object@1.1.2
+├─ is-callable@1.2.7
+├─ is-data-descriptor@1.0.0
+├─ is-date-object@1.0.5
+├─ is-descriptor@1.0.2
+├─ is-error@2.2.2
+├─ is-extglob@2.1.1
+├─ is-get-set-prop@1.0.0
+├─ is-installed-globally@0.3.2
+├─ is-interactive@1.0.0
+├─ is-js-type@2.0.0
+├─ is-natural-number@4.0.1
+├─ is-negated-glob@1.0.0
+├─ is-negative-zero@2.0.2
+├─ is-npm@4.0.0
+├─ is-number-object@1.0.7
+├─ is-obj-prop@1.0.0
+├─ is-obj@2.0.0
+├─ is-object@1.0.2
+├─ is-path-cwd@2.2.0
+├─ is-path-inside@3.0.3
+├─ is-plain-object@2.0.4
+├─ is-promise@4.0.0
+├─ is-proto-prop@2.0.0
+├─ is-relative@1.0.0
+├─ is-retry-allowed@1.2.0
+├─ is-string@1.0.7
+├─ is-symbol@1.0.4
+├─ is-unc-path@1.0.0
+├─ is-weakref@1.0.2
+├─ is-windows@1.0.2
+├─ is-wsl@1.1.0
+├─ isarray@1.0.0
+├─ js-string-escape@1.0.1
+├─ js-tokens@4.0.0
+├─ js-types@1.0.0
+├─ js-yaml@3.14.1
+├─ json-parse-better-errors@1.0.2
+├─ json-parse-even-better-errors@2.3.1
+├─ json-schema-traverse@0.4.1
+├─ json5@2.2.3
+├─ jsonfile@6.1.0
+├─ keyv@3.0.0
+├─ kind-of@3.2.2
+├─ latest-version@5.1.0
+├─ levn@0.3.0
+├─ line-column-path@2.0.0
+├─ lines-and-columns@1.2.4
+├─ load-json-file@5.3.0
+├─ locate-path@5.0.0
+├─ lodash.get@4.4.2
+├─ lodash.zip@4.2.0
+├─ log-symbols@3.0.0
+├─ loud-rejection@1.6.0
+├─ lru-cache@6.0.0
+├─ make-dir@1.3.0
+├─ map-age-cleaner@0.1.3
+├─ map-obj@1.0.1
+├─ map-visit@1.0.0
+├─ matcher@3.0.0
+├─ mem@8.1.1
+├─ memory-fs@0.2.0
+├─ meow@5.0.0
+├─ merge-stream@2.0.0
+├─ merge2@1.4.1
+├─ micro-spelling-correcter@1.1.1
+├─ micromatch@4.0.5
+├─ miller-rabin@4.0.1
+├─ mime-db@1.52.0
+├─ mimic-fn@2.1.0
+├─ minimist-options@3.0.2
+├─ minimist@1.2.8
+├─ mixin-deep@1.3.2
+├─ ms@2.1.3
+├─ multimap@1.1.0
+├─ mute-stream@0.0.8
+├─ nanomatch@1.2.13
+├─ napi-build-utils@1.0.2
+├─ natural-compare@1.4.0
+├─ nice-try@1.0.5
+├─ node-abi@3.47.0
+├─ node-addon-api@6.1.0
+├─ node-libs-browser@2.2.1
+├─ normalize-package-data@2.5.0
+├─ normalize-path@3.0.0
+├─ normalize-url@2.0.1
+├─ npm-conf@1.1.3
+├─ obj-props@1.4.0
+├─ object-assign@4.1.1
+├─ object-copy@0.1.0
+├─ object-inspect@1.12.3
+├─ object.fromentries@2.0.7
+├─ object.groupby@1.0.1
+├─ object.values@1.1.7
+├─ open-editor@2.0.1
+├─ open@6.4.0
+├─ optionator@0.8.3
+├─ ora@5.4.1
+├─ os-browserify@0.3.0
+├─ os-filter-obj@2.0.0
+├─ os-tmpdir@1.0.2
+├─ p-cancelable@0.3.0
+├─ p-defer@1.0.0
+├─ p-event@4.2.0
+├─ p-is-promise@1.1.0
+├─ p-limit@2.3.0
+├─ p-locate@4.1.0
+├─ p-map-series@1.0.0
+├─ p-reduce@2.1.0
+├─ p-try@2.2.0
+├─ package-json@6.5.0
+├─ pako@1.0.11
+├─ parent-module@1.0.1
+├─ parse-asn1@5.1.6
+├─ parse-ms@2.1.0
+├─ pascalcase@0.1.1
+├─ path-browserify@0.0.1
+├─ path-dirname@1.0.2
+├─ path-is-absolute@1.0.1
+├─ path-key@2.0.1
+├─ path-parse@1.0.7
+├─ pend@1.2.0
+├─ picomatch@2.3.1
+├─ pinkie-promise@2.0.1
+├─ pinkie@2.0.4
+├─ pkg-conf@3.1.0
+├─ pkg-dir@4.2.0
+├─ plur@4.0.0
+├─ posix-character-classes@0.1.1
+├─ prebuild-install@7.1.1
+├─ prettier-linter-helpers@1.0.0
+├─ prettier@2.0.4
+├─ pretty-ms@7.0.1
+├─ process-nextick-args@2.0.1
+├─ process@0.11.10
+├─ progress@2.0.3
+├─ proto-list@1.2.4
+├─ proto-props@2.0.0
+├─ pseudomap@1.0.2
+├─ public-encrypt@4.0.3
+├─ punycode@1.4.1
+├─ pupa@2.1.1
+├─ qs@6.11.2
+├─ query-string@5.1.1
+├─ querystring-es3@0.2.1
+├─ queue-microtask@1.2.3
+├─ queue-tick@1.0.1
+├─ quick-lru@1.1.0
+├─ randomfill@1.0.4
+├─ rc@1.2.8
+├─ read-pkg-up@3.0.0
+├─ readable-stream@2.3.8
+├─ readdirp@3.6.0
+├─ redent@2.0.0
+├─ regexp-tree@0.1.27
+├─ regexp.prototype.flags@1.5.1
+├─ registry-auth-token@4.2.2
+├─ registry-url@5.1.0
+├─ repeat-element@1.1.4
+├─ require-directory@2.1.1
+├─ reserved-words@0.1.2
+├─ resolve-url@0.2.1
+├─ resolve@1.22.6
+├─ responselike@1.0.2
+├─ restore-cursor@3.1.0
+├─ ret@0.1.15
+├─ reusify@1.0.4
+├─ rimraf@3.0.2
+├─ run-async@2.4.1
+├─ run-parallel@1.2.0
+├─ rxjs@6.6.7
+├─ safe-array-concat@1.0.1
+├─ safe-regex-test@1.0.0
+├─ safer-buffer@2.1.2
+├─ seek-bzip@1.0.6
+├─ semver-regex@2.0.0
+├─ semver-truncate@1.1.2
+├─ semver@7.5.4
+├─ serialize-error@7.0.1
+├─ set-function-name@2.0.1
+├─ set-value@2.0.1
+├─ setimmediate@1.0.5
+├─ sharp@0.32.6
+├─ shebang-regex@1.0.0
+├─ simple-concat@1.0.1
+├─ simple-get@4.0.1
+├─ simple-swizzle@0.2.2
+├─ slice-ansi@3.0.0
+├─ snapdragon-node@2.1.1
+├─ snapdragon-util@3.0.1
+├─ sort-keys-length@1.0.1
+├─ sort-keys@1.1.2
+├─ source-map-resolve@0.5.3
+├─ source-map-support@0.5.21
+├─ source-map-url@0.4.1
+├─ source-map@0.6.1
+├─ spdx-correct@3.2.0
+├─ spdx-exceptions@2.3.0
+├─ split-string@3.1.0
+├─ sprintf-js@1.0.3
+├─ stack-utils@2.0.6
+├─ static-extend@0.1.2
+├─ stream-browserify@2.0.2
+├─ stream-http@2.8.3
+├─ streamx@2.15.1
+├─ strict-uri-encode@1.1.0
+├─ string_decoder@1.3.0
+├─ string.prototype.trim@1.2.8
+├─ string.prototype.trimend@1.0.7
+├─ string.prototype.trimstart@1.0.7
+├─ strip-dirs@2.1.0
+├─ strip-final-newline@2.0.0
+├─ strip-indent@2.0.0
+├─ strip-json-comments@3.1.1
+├─ strip-outer@1.0.1
+├─ supertap@2.0.0
+├─ supports-color@7.2.0
+├─ supports-hyperlinks@2.3.0
+├─ supports-preserve-symlinks-flag@1.0.0
+├─ table@5.4.6
+├─ tapable@0.1.10
+├─ tar-fs@3.0.4
+├─ tar-stream@3.1.6
+├─ tempfile@2.0.0
+├─ tempy@0.5.0
+├─ term-size@2.2.1
+├─ text-table@0.2.0
+├─ through@2.3.8
+├─ time-zone@1.0.0
+├─ timed-out@4.0.1
+├─ timers-browserify@2.0.12
+├─ tmp@0.0.33
+├─ to-absolute-glob@2.0.2
+├─ to-arraybuffer@1.0.1
+├─ to-buffer@1.1.1
+├─ to-object-path@0.3.0
+├─ to-readable-stream@1.0.0
+├─ to-regex-range@5.0.1
+├─ trim-newlines@2.0.0
+├─ trim-off-newlines@1.0.3
+├─ trim-repeated@1.0.0
+├─ tsconfig-paths@3.14.2
+├─ tslib@1.14.1
+├─ tty-browserify@0.0.0
+├─ typed-array-buffer@1.0.0
+├─ typed-array-byte-length@1.0.0
+├─ typed-array-byte-offset@1.0.0
+├─ typed-array-length@1.0.4
+├─ typedarray-to-buffer@3.1.5
+├─ typescript@3.9.10
+├─ unbox-primitive@1.0.2
+├─ unbzip2-stream@1.4.3
+├─ unc-path-regex@0.1.2
+├─ union-value@1.0.1
+├─ unset-value@1.0.0
+├─ update-notifier@4.1.3
+├─ uri-js@4.4.1
+├─ urix@0.1.0
+├─ url@0.11.3
+├─ use@3.1.1
+├─ util-deprecate@1.0.2
+├─ util@0.11.1
+├─ uuid@3.4.0
+├─ v8-compile-cache@2.4.0
+├─ validate-npm-package-license@3.0.4
+├─ vm-browserify@1.1.2
+├─ wcwidth@1.0.1
+├─ well-known-symbols@2.0.0
+├─ which-boxed-primitive@1.0.2
+├─ word-wrap@1.2.5
+├─ write-file-atomic@3.0.3
+├─ write@1.0.3
+├─ xo@0.30.0
+├─ y18n@5.0.8
+├─ yallist@4.0.0
+├─ yaml@1.10.2
+├─ yargs-parser@10.1.0
+├─ yargs@16.2.0
+└─ yauzl@2.10.0
+$ node lib/install.js
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.resolve (node:path:167:9)
+    at Object.<anonymous> (C:\Users\zljsd\Desktop\blog-comments-step4_a\node_modules\pngquant-bin\node_modules\npm-conf\lib\defaults.js:31:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.17.0
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
+PS C:\Users\zljsd\Desktop\blog-comments-step4_a\node_modules\pngquant-bin>

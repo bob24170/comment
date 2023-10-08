@@ -147,7 +147,7 @@ PS C:\Users\zljsd\Desktop\blog-comments-step4_e>
   
 
 
-  Microsoft Windows [版本 10.0.22000.2416]
+Microsoft Windows [版本 10.0.22000.2416]
 (c) Microsoft Corporation。保留所有权利。
 
 C:\Users\zljsd>cd C:\Users\zljsd\Desktop\blog-comments-step4_eC:\Users\zljsd\Desktop\blog-comments-step4_e
@@ -175,6 +175,47 @@ Exit code: 1
 Command: node lib/install.js
 Arguments:
 Directory: C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\pngquant-bin
+Output:
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.resolve (node:path:167:9)
+    at Object.<anonymous> (C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\npm-conf\lib\defaults.js:31:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18) {
+  code: 'ERR_INVALID_ARG_TYPE'
+
+
+
+replaced C:\Users\zljsd\Desktop\blog-comments-step4_a\node_modules\pngquant-bin package.json file in blog-e folder with the one in blog-a folder
+C:\Users\zljsd\Desktop\blog-comments-step4_e>yarn add sharp
+yarn add v1.22.19
+warning ..\..\package.json: No license field
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "firebase > @firebase/firestore > @grpc/grpc-js@1.1.1" has unmet peer dependency "google-auth-library@5.x || 6.x".
+warning "gatsby > @pmmmwh/react-refresh-webpack-plugin@0.3.1" has incorrect peer dependency "react-refresh@^0.8.2".
+warning "gatsby > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > styled-components@5.1.0" has unmet peer dependency "react-is@>= 16.8.0".
+[4/4] Building fresh packages...
+[7/17] ⡀ gatsby
+[10/17] ⡀ pngquant-bin
+[11/17] ⡀ cwebp-bin
+[8/17] ⡀ sharp
+error C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\mozjpeg: Command failed.
+Exit code: 1
+Command: node lib/install.js
+Arguments:
+Directory: C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\mozjpeg
 Output:
 node:internal/validators:162
     throw new ERR_INVALID_ARG_TYPE(name, 'string', value);

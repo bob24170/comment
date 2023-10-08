@@ -1,0 +1,200 @@
+
+  - loader:1143 Module.require
+    node:internal/modules/cjs/loader:1143:19
+
+  - v8-compile-cache.js:159 require
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:159:20
+
+  - safe-sharp.js:127 Object.<anonymous>
+    [blog-comments-step4_e]/[gatsby-plugin-sharp]/safe-sharp.js:127:11
+
+  - v8-compile-cache.js:178 Module._compile
+    [blog-comments-step4_e]/[v8-compile-cache]/v8-compile-cache.js:178:30
+
+
+not finished load plugins - 0.163s
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> yarn add sharp
+yarn add v1.22.19
+warning ..\..\package.json: No license field
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "firebase > @firebase/firestore > @grpc/grpc-js@1.1.1" has unmet peer dependency "google-auth-library@5.x || 6.x".
+warning "gatsby > @pmmmwh/react-refresh-webpack-plugin@0.3.1" has incorrect peer dependency "react-refresh@^0.8.2".
+warning "gatsby > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > styled-components@5.1.0" has unmet peer dependency "react-is@>= 16.8.0".
+[4/4] Building fresh packages...
+[8/17] ⢀ sharp
+[11/17] ⢀ cwebp-bin
+[9/17] ⠠ mozjpeg
+[7/17] ⠠ gatsby
+error C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-manifest\node_modules\sharp, C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-sharp\node_modules\sharp, C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\gatsby-transformer-sharp\node_modules\sharp: Command failed.
+Exit code: 1
+Command: (node install/libvips && node install/dll-copy && prebuild-install --runtime=napi) || (node-gyp rebuild && node install/dll-copy)
+Arguments:
+Directory: C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-manifest\node_modules\sharp
+Output:
+info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.9.1/libvips-8.9.1-win32-x64.tar.gz
+ERR! sharp read ECONNRESET
+info sharp Attempting to build from source via node-gyp but this may fail due to the above error
+info sharp Please see https://sharp.pixelplumbing.com/install for required dependencies
+
+C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-manifest\node_modules\sharp>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild )
+gyp info it worked if it ends with ok
+gyp info using node-gyp@9.3.1
+gyp info using node@18.17.0 | win32 | x64
+gyp ERR! find Python
+gyp ERR! find Python Python is not set from command line or npm configuration
+gyp ERR! find Python Python is not set from environment variable PYTHON
+gyp ERR! find Python checking if "python3" can be used
+gyp ERR! find Python - "python3" is not in PATH or produced an error
+gyp ERR! find Python checking if "python" can be used
+gyp ERR! find Python - "python" is not in PATH or produced an error
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python39\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python39\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python39\python.exe
+gyp ERR! find Python - "C:\Program Files\Python39\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python39-32\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python39-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python39-32\python.exe
+gyp ERR! find Python - "C:\Program Files\Python39-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python39-32\python.exe
+gyp ERR! find Python - "C:\Program Files (x86)\Python39-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python38\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python38\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python38\python.exe
+gyp ERR! find Python - "C:\Program Files\Python38\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python38-32\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python38-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python38-32\python.exe
+gyp ERR! find Python - "C:\Program Files\Python38-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python38-32\python.exe
+gyp ERR! find Python - "C:\Program Files (x86)\Python38-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python37\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python37\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python37\python.exe
+gyp ERR! find Python - "C:\Program Files\Python37\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python37-32\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python37-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python37-32\python.exe
+gyp ERR! find Python - "C:\Program Files\Python37-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python37-32\python.exe
+gyp ERR! find Python - "C:\Program Files (x86)\Python37-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python36\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python36\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python36\python.exe
+gyp ERR! find Python - "C:\Program Files\Python36\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Users\zljsd\AppData\Local\Programs\Python\Python36-32\python.exe
+gyp ERR! find Python - "C:\Users\zljsd\AppData\Local\Programs\Python\Python36-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files\Python36-32\python.exe
+gyp ERR! find Python - "C:\Program Files\Python36-32\python.exe" could not be run
+gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python36-32\python.exe
+gyp ERR! find Python - "C:\Program Files (x86)\Python36-32\python.exe" could not be run
+gyp ERR! find Python checking if the py launcher can be used to find Python 3
+gyp ERR! find Python - "py.exe" is not in PATH or produced an error
+gyp ERR! find Python
+gyp ERR! find Python **********************************************************
+gyp ERR! find Python You need to install the latest version of Python.
+gyp ERR! find Python Node-gyp should be able to find and use Python. If not,
+gyp ERR! find Python you can try one of the following options:
+gyp ERR! find Python - Use the switch --python="C:\Path\To\python.exe"
+gyp ERR! find Python   (accepted by both node-gyp and npm)
+gyp ERR! find Python - Set the environment variable PYTHON
+gyp ERR! find Python - Set the npm configuration variable python:
+gyp ERR! find Python   npm config set python "C:\Path\To\python.exe"
+gyp ERR! find Python For more information consult the documentation at:
+gyp ERR! find Python https://github.com/nodejs/node-gyp#installation
+gyp ERR! find Python **********************************************************
+gyp ERR! find Python
+gyp ERR! configure error
+gyp ERR! stack Error: Could not find any Python installation to use
+gyp ERR! stack     at PythonFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-python.js:330:47)
+gyp ERR! stack     at PythonFinder.runChecks (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-python.js:159:21)
+gyp ERR! stack     at PythonFinder.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-python.js:228:18)
+gyp ERR! stack     at PythonFinder.execFileCallback (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-python.js:294:16)
+gyp ERR! stack     at exithandler (node:child_process:427:5)
+gyp ERR! stack     at ChildProcess.errorhandler (node:child_process:439:5)
+gyp ERR! stack     at ChildProcess.emit (node:events:514:28)
+gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:289:12)
+gyp ERR! stack     at onErrorNT (node:internal/child_process:476:16)
+gyp ERR! stack     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+gyp ERR! System Windows_NT 10.0.22000
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+gyp ERR! cwd C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\gatsby-plugin-manifest\node_modules\sharp
+                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                       
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e> 
+ *  History restored 
+
+PS C:\Users\zljsd\Desktop\blog-comments-step4_e>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  Microsoft Windows [版本 10.0.22000.2416]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\zljsd>cd C:\Users\zljsd\Desktop\blog-comments-step4_eC:\Users\zljsd\Desktop\blog-comments-step4_e
+文件名、目录名或卷标语法不正确。
+
+C:\Users\zljsd>cd C:\Users\zljsd\Desktop\blog-comments-step4_e
+
+C:\Users\zljsd\Desktop\blog-comments-step4_e>yarn add sharp
+yarn add v1.22.19
+warning ..\..\package.json: No license field
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "firebase > @firebase/firestore > @grpc/grpc-js@1.1.1" has unmet peer dependency "google-auth-library@5.x || 6.x".
+warning "gatsby > @pmmmwh/react-refresh-webpack-plugin@0.3.1" has incorrect peer dependency "react-refresh@^0.8.2".
+warning "gatsby > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning " > styled-components@5.1.0" has unmet peer dependency "react-is@>= 16.8.0".
+[4/4] Building fresh packages...
+[7/17] ⠁ gatsby
+[8/17] ⠁ sharp
+[9/17] ⠁ mozjpeg
+[10/17] ⠁ pngquant-bin
+error C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\pngquant-bin: Command failed.
+Exit code: 1
+Command: node lib/install.js
+Arguments:
+Directory: C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\pngquant-bin
+Output:
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.resolve (node:path:167:9)
+    at Object.<anonymous> (C:\Users\zljsd\Desktop\blog-comments-step4_e\node_modules\npm-conf\lib\defaults.js:31:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18) {
+  code: 'ERR_INVALID_ARG_TYPE'
+
+
+
+
+
+C:\Users\zljsd\Desktop\blog-comments-step4_e>

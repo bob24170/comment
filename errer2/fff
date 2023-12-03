@@ -1,0 +1,152 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\88\Desktop\react-firebase-chat-app-main> npm install
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+
+added 1498 packages, and audited 1499 packages in 2m
+
+187 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (6 moderate, 11 high, 4 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 9.6.7 -> 10.2.4
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.2.4
+npm notice Run npm install -g npm@10.2.4 to update!
+npm notice
+PS C:\Users\88\Desktop\react-firebase-chat-app-main> npm run build
+
+> react-firebase-chat-app@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Compiled successfully.
+
+File sizes after gzip:
+
+  151.49 kB  build\static\js\main.1a0b926b.js
+  859 B      build\static\css\main.941bab45.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+PS C:\Users\88\Desktop\react-firebase-chat-app-main>
+PS C:\Users\88\Desktop\react-firebase-chat-app-main> firebase deploy
+
+Error: Not in a Firebase app directory (could not locate firebase.json)
+PS C:\Users\88\Desktop\react-firebase-chat-app-main> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\react-firebase-chat-app-main
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+features, then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and
+
+(optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: (Use arrow keys)
+? Please select an option: Use an existing project
+
+Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+
+Having trouble? Try again or contact support with contents of firebase-debug.log
+
+   ╭─────────────────────────────────────────────
+───────────────────────╮
+   │                                                                    │
+   │                  Update available 12.4.7 → 12.9.1                  │
+   │           To update to the latest version using npm, run           │
+   │                   npm install -g firebase-tools                    │
+   │   For other CLI management options, visit the CLI documentation    │
+   │         (https://firebase.google.com/docs/cli#update-cli)          │
+   │                                                                    │
+   │                                                                    │
+   │                                                                    │
+   ╰─────────────────────────────────────────────
+───────────────────────╯
+
+PS C:\Users\88\Desktop\react-firebase-chat-app-main> firebase init
+
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\88\Desktop\react-firebase-chat-app-main
+
+? Are you ready to proceed? Yes
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+? Which Firebase features do you want to set up for this directory? Press Space to select 
+features, then Enter to confirm your choices. Hosting: Configure files for Firebase Hosting and
+
+(optionally) set up GitHub Action deploys
+
+=== Project Setup
+
+First, let's associate this project directory with a Firebase project.
+You can create multiple project aliases by running firebase use --add,
+but for now we'll just set up a default project.
+
+? Please select an option: Create a new project
+i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+? Please specify a unique project id (warning: cannot be modified afterward) [6-30 characters]:
+? Please specify a unique project id (warning: cannot be modified afterward) [6-30 characters]:
+
+? What would you like to call your project? (defaults to your project ID)
+
+Error: Project ID cannot be empty
+
+Having trouble? Try firebase [command] --help
+PS C:\Users\88\Desktop\react-firebase-chat-app-main>
